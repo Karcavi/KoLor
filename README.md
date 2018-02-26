@@ -1,5 +1,5 @@
 # KoLor
-KoLor App
+
 Kolor App is an application created to connect students from Konrad Lorenz Fundación Universitaria.
 
 The team aims to allow our Community offer products and services related to our academic matters, as well as look for them.
