@@ -11,7 +11,6 @@
         android:id="@+id/message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@id/message"
         android:layout_alignParentTop="true"
         android:layout_toEndOf="@+id/navigation"
         android:layout_toRightOf="@+id/navigation"
@@ -30,20 +29,12 @@
         android:text="@string/title_welcome" />
 
      <ImageView
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
+         android:layout_width="400dp"
+         android:layout_height="250dp"
          android:id="@+id/imageView"
          android:src="@drawable/tuto1"
          android:layout_centerVertical="true"
          android:layout_centerHorizontal="true" />
-
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="150dp"
-        android:id="@+id/imageView2"
-        android:src="@drawable/signup"
-        android:layout_below="@id/imageView"
-        android:layout_centerHorizontal="true" />
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/navigation"
@@ -56,5 +47,32 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:menu="@menu/navigation" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_alignEnd="@+id/button13"
+        android:layout_alignRight="@+id/button13"
+        android:layout_below="@+id/button13"
+        android:text="Fb login" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/button14"
+        android:layout_alignStart="@+id/button14"
+        android:layout_below="@+id/button14"
+        android:text="Gmail login" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:text="Email Login" />
+
 
 </RelativeLayout>

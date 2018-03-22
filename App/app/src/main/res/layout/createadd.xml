@@ -3,55 +3,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="13dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="CREAR ANUNCIO" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_below="@+id/editText2"
-        android:layout_marginEnd="23dp"
-        android:layout_marginRight="23dp"
-        android:layout_marginTop="25dp"
-        android:text="Nombre anuncio"
-        android:visibility="visible" />
-
-    <EditText
-        android:id="@+id/editText3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/textView"
-        android:layout_alignBottom="@+id/textView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginLeft="17dp"
-        android:layout_marginStart="17dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Nombre del anuncio:" />
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="151dp"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="26dp"
+        android:text="CREAR ANUNCIO" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/editText2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/editText3"
-        android:layout_alignRight="@+id/editText3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_below="@+id/textView"
-        android:layout_marginTop="28dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="19dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Duración en semanas" />
+        android:text="Nombre anuncio" />
 
     <Spinner
         android:id="@+id/spinner"
@@ -59,8 +36,30 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignTop="@+id/editText4"
-        android:layout_marginTop="11dp" />
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="44dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="14dp"
+        android:text="Duración en semanas" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/spinner"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Descripción" />
 
     <EditText
         android:id="@+id/editText6"
@@ -69,85 +68,28 @@
         android:layout_alignLeft="@+id/editText4"
         android:layout_alignStart="@+id/editText4"
         android:layout_below="@+id/editText4"
-        android:layout_marginTop="12dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Descripción" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/editText6"
-        android:layout_alignBottom="@+id/editText6"
-        android:layout_toEndOf="@+id/editText6"
-        android:layout_toRightOf="@+id/editText6"
-        android:text="Describa de forma concisa su anuncio" />
-
-    <EditText
-        android:id="@+id/editText7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText6"
-        android:layout_alignStart="@+id/editText6"
-        android:layout_below="@+id/textView2"
-        android:layout_marginTop="23dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Confirme contraseña" />
-
-    <EditText
-        android:id="@+id/editText8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/editText7"
-        android:layout_alignBottom="@+id/editText7"
-        android:layout_toEndOf="@+id/editText7"
-        android:layout_toRightOf="@+id/editText7"
+        android:layout_marginTop="31dp"
         android:ems="10"
         android:inputType="textPassword"
-        android:text="Contraseña de mods" />
-
-    <EditText
-        android:id="@+id/editText9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText7"
-        android:layout_alignStart="@+id/editText7"
-        android:layout_below="@+id/editText7"
-        android:layout_marginTop="13dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Agregar imagen" />
-
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/editText9"
-        android:layout_alignLeft="@+id/textView"
-        android:layout_alignStart="@+id/textView"
-        android:text="CheckBox" />
+        android:hint="Confirme contraseña"/>
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText9"
-        android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/editText9"
-        android:layout_marginBottom="47dp"
-        android:layout_marginLeft="48dp"
-        android:layout_marginStart="48dp"
-        android:text="CANCELAR" />
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/editText6"
+        android:layout_marginTop="43dp"
+        android:text="Cancelar" />
 
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/button4"
-        android:layout_toEndOf="@+id/editText9"
-        android:layout_toRightOf="@+id/editText9"
-        android:text="CREAR" />
+        android:layout_toEndOf="@+id/editText6"
+        android:layout_toRightOf="@+id/editText6"
+        android:text="Crear" />
 
 </RelativeLayout>

@@ -1,7 +1,13 @@
 <resources>
     <string name="app_name">KoLor</string>
-    <string name="title_home">Home</string>
-    <string name="title_welcome">Welcome to Kolor App</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_welcome">Bienvenido a Kolor App</string>
+    <string name="title_dashboard">Tablero</string>
+    <string name="title_notifications">Notificationes</string>
+    <string name="title_activity_login2">Ingreso</string>
+    <string name="CrearAd">Crear anuncio</string>
+    <string name="Busqueda">Búsqueda</string>
+    <string name="Vermisanuncios">Ver mis anuncios</string>
+
+
 </resources>

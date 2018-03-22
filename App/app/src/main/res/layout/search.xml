@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</LinearLayout>
+      <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+          android:id="@+id/searchView" />
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="250dp"
+        android:layout_height="400dp"
+        android:layout_below="@+id/searchView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/datePicker"
+        android:layout_alignStart="@+id/datePicker"
+        android:layout_below="@+id/datePicker"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="12dp"
+        android:text="Cancelar" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button12"
+        android:layout_alignEnd="@+id/datePicker"
+        android:layout_alignRight="@+id/datePicker"
+        android:text="Aceptar" />
+
+
+</RelativeLayout>

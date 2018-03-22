@@ -1,14 +1,15 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml:2:1-23:12
+ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:2:1-50:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\c8cb519f9bf9b19f977bb5d13a79d17c\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\44ee21ad2861960c0f052b4fc82f5432\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\00a78b8b3cceaf50b531531b0db1b421\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\1299a0f8a76854b5de03c5b18768f5a1\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\e60a6c60f3b168126714c111fac9c81f\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\6e8d81055857673edf7812b72f5b31bc\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\965f696ae637a1c3e2cc4050db58fb50\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:transition:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\94756b7aa2cdc84f347a4fd6fb1a6355\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\a15e3a95f754182fc680aa76d7b38326\AndroidManifest.xml:17:1-31:12
@@ -18,25 +19,25 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\IAN\.gradle
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\d9389795ff1157f41bbea060e0a399ee\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\2eefe8d7943a8c0156e76942a492ce4b\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\e4c74de773a5fc202145ca1b18839ec5\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:2:1-50:12
 	package
-		ADDED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml:3:5-32
-		INJECTED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml:2:1-23:12
-		INJECTED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:2:1-50:12
+		INJECTED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml:2:1-23:12
-		INJECTED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:2:1-50:12
+		INJECTED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml:5:5-21:19
+ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:5:5-48:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\c8cb519f9bf9b19f977bb5d13a79d17c\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\c8cb519f9bf9b19f977bb5d13a79d17c\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\44ee21ad2861960c0f052b4fc82f5432\AndroidManifest.xml:25:5-29:19
@@ -47,6 +48,8 @@ MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\IAN\.
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\1299a0f8a76854b5de03c5b18768f5a1\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\e60a6c60f3b168126714c111fac9c81f\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\e60a6c60f3b168126714c111fac9c81f\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\6e8d81055857673edf7812b72f5b31bc\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\6e8d81055857673edf7812b72f5b31bc\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\965f696ae637a1c3e2cc4050db58fb50\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\965f696ae637a1c3e2cc4050db58fb50\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:transition:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\94756b7aa2cdc84f347a4fd6fb1a6355\AndroidManifest.xml:22:5-26:19
@@ -66,37 +69,77 @@ MERGED from [com.android.support:support-compat:26.1.0] C:\Users\IAN\.gradle\cac
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\e4c74de773a5fc202145ca1b18839ec5\AndroidManifest.xml:24:5-28:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\e4c74de773a5fc202145ca1b18839ec5\AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.karcavi.kolor.MainActivity
-ADDED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml:12:9-20:20
+ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:12:9-20:20
 	android:label
-		ADDED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml:14:13-45
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:14:13-45
 	android:name
-		ADDED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml:13:13-41
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:13:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:18:27-74
+activity#com.karcavi.kolor.Login
+ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:21:9-24:68
+	android:label
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:23:13-34
+	android:theme
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:24:13-56
+	android:name
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:22:13-34
+activity#com.karcavi.kolor.CreateAdd
+ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:26:9-29:68
+	android:label
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:28:13-38
+	android:theme
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:29:13-56
+	android:name
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:27:13-38
+activity#com.karcavi.kolor.MainMenu
+ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:31:9-34:68
+	android:label
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:33:13-37
+	android:theme
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:34:13-56
+	android:name
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:32:13-37
+activity#com.karcavi.kolor.MyAdds
+ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:36:9-39:68
+	android:label
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:38:13-35
+	android:theme
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:39:13-56
+	android:name
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:37:13-35
+activity#com.karcavi.kolor.Search
+ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:41:9-44:68
+	android:label
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:43:13-35
+	android:theme
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:44:13-56
+	android:name
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml:42:13-35
 uses-sdk
-INJECTED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:design:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\c8cb519f9bf9b19f977bb5d13a79d17c\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:design:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\c8cb519f9bf9b19f977bb5d13a79d17c\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\44ee21ad2861960c0f052b4fc82f5432\AndroidManifest.xml:21:5-23:78
@@ -107,6 +150,8 @@ MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\IAN\.
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\1299a0f8a76854b5de03c5b18768f5a1\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\e60a6c60f3b168126714c111fac9c81f\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\e60a6c60f3b168126714c111fac9c81f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\6e8d81055857673edf7812b72f5b31bc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\6e8d81055857673edf7812b72f5b31bc\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\965f696ae637a1c3e2cc4050db58fb50\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\965f696ae637a1c3e2cc4050db58fb50\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\94756b7aa2cdc84f347a4fd6fb1a6355\AndroidManifest.xml:20:5-44
@@ -125,18 +170,18 @@ MERGED from [com.android.support:support-compat:26.1.0] C:\Users\IAN\.gradle\cac
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\2eefe8d7943a8c0156e76942a492ce4b\AndroidManifest.xml:21:5-23:58
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\e4c74de773a5fc202145ca1b18839ec5\AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\e4c74de773a5fc202145ca1b18839ec5\AndroidManifest.xml:20:5-22:41
-INJECTED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\c8cb519f9bf9b19f977bb5d13a79d17c\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\IAN\Desktop\App\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\IAN\Downloads\App\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\c8cb519f9bf9b19f977bb5d13a79d17c\AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\44ee21ad2861960c0f052b4fc82f5432\AndroidManifest.xml:26:9-28:38
@@ -145,6 +190,8 @@ MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\IAN\.
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\1299a0f8a76854b5de03c5b18768f5a1\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\e60a6c60f3b168126714c111fac9c81f\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\e60a6c60f3b168126714c111fac9c81f\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\6e8d81055857673edf7812b72f5b31bc\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\6e8d81055857673edf7812b72f5b31bc\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\965f696ae637a1c3e2cc4050db58fb50\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\965f696ae637a1c3e2cc4050db58fb50\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:transition:26.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\94756b7aa2cdc84f347a4fd6fb1a6355\AndroidManifest.xml:23:9-25:38
