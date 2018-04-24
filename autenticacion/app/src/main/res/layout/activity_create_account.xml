@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="co.edu.konradlorenz.autenticacion.CreateAccountActivity">
+
+    <LinearLayout
+        android:id="@+id/email_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+    <TextView
+        android:id="@+id/text_create_account"
+        style="@style/ThemeOverlay.MyTextDetail"
+        android:text="@string/create_account"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:textColor="@color/colorP"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/etxt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="type your name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etxt_lastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="type your lastname"
+        android:inputType="textPersonName" />
+
+    <AutoCompleteTextView
+        android:id="@+id/etxt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etxt_lastname"
+        android:layout_centerHorizontal="true"
+        android:hint="Type your email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etxt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etxt_email"
+        android:hint="Type your password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etxt_numphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password"
+        android:hint="Type your phone number"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_register"
+        style="@style/FirebaseUI.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etxt_numphone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Register" />
+
+    <TextView
+        android:id="@+id/txt_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_register"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="Or click here to login" />
+    </LinearLayout>
+</ScrollView>

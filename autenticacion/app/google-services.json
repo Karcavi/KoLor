@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "45306922907",
+    "firebase_url": "https://kl-autenticacion.firebaseio.com",
+    "project_id": "kl-autenticacion",
+    "storage_bucket": "kl-autenticacion.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45306922907:android:2addb122d14b9d8a",
+        "android_client_info": {
+          "package_name": "co.edu.konradlorenz.autenticacion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45306922907-a4fp8fc2rdofsehttjbk6kps5fhu0qmp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.edu.konradlorenz.autenticacion",
+            "certificate_hash": "7c9a41955e99a40959da9ea3d3de731c94966685"
+          }
+        },
+        {
+          "client_id": "45306922907-on1lj3121jojbhe9v7cqt2v09s3rpfiv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB0eWj4tHoQ2vHRgYjCb0ChtnBQYS4sLs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45306922907-on1lj3121jojbhe9v7cqt2v09s3rpfiv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
