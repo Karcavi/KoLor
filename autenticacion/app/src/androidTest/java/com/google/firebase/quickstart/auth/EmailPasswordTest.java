@@ -17,7 +17,6 @@ import org.junit.runner.RunWith;
 
 import java.util.Random;
 
-import co.edu.konradlorenz.autenticacion.EmailPasswordActivity;
 import co.edu.konradlorenz.autenticacion.R;
 
 import static android.support.test.espresso.Espresso.onView;

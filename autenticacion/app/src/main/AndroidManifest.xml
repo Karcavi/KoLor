@@ -27,10 +27,6 @@
             android:name=".FacebookLoginActivity"
             android:label="@string/label_facebook_login" />
         <activity
-            android:name=".EmailPasswordActivity"
-            android:label="@string/label_emailpassword"
-            android:windowSoftInputMode="stateAlwaysHidden" />
-        <activity
             android:name=".PasswordlessActivity"
             android:label="@string/label_passwordless"
             android:launchMode="singleTop">
@@ -85,7 +81,8 @@
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme" />
-        <activity android:name=".CreateAccountActivity"></activity>
+        <activity android:name=".CreateAccountActivity" />
+        <activity android:name=".CreatePubActivity"></activity>
     </application>
 
 </manifest>

@@ -43,10 +43,6 @@
             android:name="co.edu.konradlorenz.autenticacion.FacebookLoginActivity"
             android:label="@string/label_facebook_login" />
         <activity
-            android:name="co.edu.konradlorenz.autenticacion.EmailPasswordActivity"
-            android:label="@string/label_emailpassword"
-            android:windowSoftInputMode="stateAlwaysHidden" />
-        <activity
             android:name="co.edu.konradlorenz.autenticacion.PasswordlessActivity"
             android:label="@string/label_passwordless"
             android:launchMode="singleTop" >
@@ -100,6 +96,7 @@
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme" />
         <activity android:name="co.edu.konradlorenz.autenticacion.CreateAccountActivity" />
+        <activity android:name="co.edu.konradlorenz.autenticacion.CreatePubActivity" />
 
         <meta-data
             android:name="com.google.android.gms.version"

@@ -28,16 +28,12 @@
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_emailpassword.xml.flat",
-        "source": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\src\\main\\res\\layout\\activity_emailpassword.xml"
+        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_enter.xml.flat",
+        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\anim\\abc_popup_enter.xml"
     },
     {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\anim_design_snackbar_in.xml.flat",
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\d1a4edf6994ce7b1b56e0713f462cac8\\res\\anim\\design_snackbar_in.xml"
-    },
-    {
-        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_popup_enter.xml.flat",
-        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\anim\\abc_popup_enter.xml"
     },
     {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_bottom_sheet_dialog.xml.flat",
@@ -64,12 +60,12 @@
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fui_ic_googleg_color_24dp.xml.flat",
-        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-ui-auth-3.3.0.aar\\54b68891b598fa38639faff15211ea19\\res\\drawable\\fui_ic_googleg_color_24dp.xml"
-    },
-    {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_btn_checkable.xml.flat",
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\color-v23\\abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fui_ic_googleg_color_24dp.xml.flat",
+        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-ui-auth-3.3.0.aar\\54b68891b598fa38639faff15211ea19\\res\\drawable\\fui_ic_googleg_color_24dp.xml"
     },
     {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_toolbar.xml.flat",
@@ -108,12 +104,12 @@
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\26068b0530114775ed5d7a1811c5509b\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
-        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_tw__heart_animation_detail_60fps_00015.png.flat",
-        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\tweet-ui-3.2.0.aar\\cbce3317c42699e1d9eedb4cb497cba5\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00015.png"
-    },
-    {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_googleg_standard_color_18.png.flat",
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\b0535a9aa0cd592f8bd9001af66807de\\res\\drawable-hdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_tw__heart_animation_detail_60fps_00015.png.flat",
+        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\tweet-ui-3.2.0.aar\\cbce3317c42699e1d9eedb4cb497cba5\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00015.png"
     },
     {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_design_ic_visibility.png.flat",
@@ -128,12 +124,12 @@
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_design_ic_visibility.png.flat",
-        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\d1a4edf6994ce7b1b56e0713f462cac8\\res\\drawable-mdpi-v4\\design_ic_visibility.png"
-    },
-    {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_tw__ic_video_pause.png.flat",
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\tweet-ui-3.2.0.aar\\cbce3317c42699e1d9eedb4cb497cba5\\res\\drawable-xhdpi-v4\\tw__ic_video_pause.png"
+    },
+    {
+        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_design_ic_visibility.png.flat",
+        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\d1a4edf6994ce7b1b56e0713f462cac8\\res\\drawable-mdpi-v4\\design_ic_visibility.png"
     },
     {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
@@ -158,10 +154,6 @@
     {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_edittext.xml.flat",
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\color-v23\\abc_tint_edittext.xml"
-    },
-    {
-        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_main.xml.flat",
-        "source": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\src\\main\\res\\menu\\menu_main.xml"
     },
     {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tw__login_btn_default.xml.flat",
@@ -304,12 +296,12 @@
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\26068b0530114775ed5d7a1811c5509b\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
-    },
-    {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\b0535a9aa0cd592f8bd9001af66807de\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\26068b0530114775ed5d7a1811c5509b\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_tw__heart_animation_detail_60fps_00019.png.flat",
@@ -336,12 +328,12 @@
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-ui-auth-3.3.0.aar\\54b68891b598fa38639faff15211ea19\\res\\layout\\fui_provider_button_phone.xml"
     },
     {
-        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20_common_google_signin_btn_text_disabled.xml.flat",
-        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-auth-12.0.1.aar\\cda3beb40f06b829d2be00ac850a15cb\\res\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml"
-    },
-    {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_tw__ic_tweet_verified.png.flat",
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\tweet-ui-3.2.0.aar\\cbce3317c42699e1d9eedb4cb497cba5\\res\\drawable-xhdpi-v4\\tw__ic_tweet_verified.png"
+    },
+    {
+        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20_common_google_signin_btn_text_disabled.xml.flat",
+        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-auth-12.0.1.aar\\cda3beb40f06b829d2be00ac850a15cb\\res\\drawable-watch-v20\\common_google_signin_btn_text_disabled.xml"
     },
     {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_in_bottom.xml.flat",
@@ -412,12 +404,12 @@
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21_design_appbar_state_list_animator.xml.flat",
-        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\d1a4edf6994ce7b1b56e0713f462cac8\\res\\animator-v21\\design_appbar_state_list_animator.xml"
-    },
-    {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tooltip_frame_light.xml.flat",
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\drawable\\tooltip_frame_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21_design_appbar_state_list_animator.xml.flat",
+        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\d1a4edf6994ce7b1b56e0713f462cac8\\res\\animator-v21\\design_appbar_state_list_animator.xml"
     },
     {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
@@ -448,12 +440,12 @@
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\drawable-mdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21_design_bottom_sheet_slide_out.xml.flat",
-        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\d1a4edf6994ce7b1b56e0713f462cac8\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
-    },
-    {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21_design_bottom_sheet_slide_out.xml.flat",
+        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\d1a4edf6994ce7b1b56e0713f462cac8\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     },
     {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_tw__ic_video_play_pressed.png.flat",
@@ -480,12 +472,12 @@
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\26068b0530114775ed5d7a1811c5509b\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
-    },
-    {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20_common_google_signin_btn_text_light_normal.xml.flat",
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-auth-12.0.1.aar\\cda3beb40f06b829d2be00ac850a15cb\\res\\drawable-watch-v20\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\26068b0530114775ed5d7a1811c5509b\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_tw__composer_close.png.flat",
@@ -556,16 +548,16 @@
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_tw__ic_retweet_dark.png.flat",
-        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\tweet-ui-3.2.0.aar\\cbce3317c42699e1d9eedb4cb497cba5\\res\\drawable-xxhdpi-v4\\tw__ic_retweet_dark.png"
+        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_tw__heart_animation_detail_60fps_00037.png.flat",
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\tweet-ui-3.2.0.aar\\cbce3317c42699e1d9eedb4cb497cba5\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00037.png"
     },
     {
-        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_tw__ic_retweet_dark.png.flat",
+        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\tweet-ui-3.2.0.aar\\cbce3317c42699e1d9eedb4cb497cba5\\res\\drawable-xxhdpi-v4\\tw__ic_retweet_dark.png"
     },
     {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_full_open_on_phone.png.flat",
@@ -624,12 +616,12 @@
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\b0535a9aa0cd592f8bd9001af66807de\\res\\drawable-mdpi-v4\\googleg_disabled_color_18.png"
     },
     {
-        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_tw__ic_tweet_photo_error_light.png.flat",
-        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\tweet-ui-3.2.0.aar\\cbce3317c42699e1d9eedb4cb497cba5\\res\\drawable-xxhdpi-v4\\tw__ic_tweet_photo_error_light.png"
-    },
-    {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_light_normal.xml.flat",
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\b0535a9aa0cd592f8bd9001af66807de\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_tw__ic_tweet_photo_error_light.png.flat",
+        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\tweet-ui-3.2.0.aar\\cbce3317c42699e1d9eedb4cb497cba5\\res\\drawable-xxhdpi-v4\\tw__ic_tweet_photo_error_light.png"
     },
     {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -760,12 +752,12 @@
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\b0535a9aa0cd592f8bd9001af66807de\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fui_idp_button_background_phone.xml.flat",
-        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-ui-auth-3.3.0.aar\\54b68891b598fa38639faff15211ea19\\res\\drawable\\fui_idp_button_background_phone.xml"
-    },
-    {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_tw__heart_animation_detail_60fps_00036.png.flat",
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\tweet-ui-3.2.0.aar\\cbce3317c42699e1d9eedb4cb497cba5\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00036.png"
+    },
+    {
+        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fui_idp_button_background_phone.xml.flat",
+        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-ui-auth-3.3.0.aar\\54b68891b598fa38639faff15211ea19\\res\\drawable\\fui_idp_button_background_phone.xml"
     },
     {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -792,12 +784,12 @@
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\tweet-ui-3.2.0.aar\\cbce3317c42699e1d9eedb4cb497cba5\\res\\drawable-xhdpi-v4\\tw__heart_animation_detail_60fps_00051.png"
     },
     {
-        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_tw__ic_vine_badge.png.flat",
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\tweet-ui-3.2.0.aar\\cbce3317c42699e1d9eedb4cb497cba5\\res\\drawable-xhdpi-v4\\tw__ic_vine_badge.png"
+    },
+    {
+        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\drawable-hdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -836,12 +828,12 @@
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\tweet-ui-3.2.0.aar\\cbce3317c42699e1d9eedb4cb497cba5\\res\\drawable-xxhdpi-v4\\tw__ic_vine_badge.png"
     },
     {
-        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable_com_facebook_button_like_background.xml.flat",
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-common-4.31.0.aar\\52c739df0da3389c7d49b9a2c9886337\\res\\drawable\\com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
@@ -864,12 +856,12 @@
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
-        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\26068b0530114775ed5d7a1811c5509b\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
-    },
-    {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_singlechoice_material.xml.flat",
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\26068b0530114775ed5d7a1811c5509b\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_popup_menu_header_item_layout.xml.flat",
@@ -1084,12 +1076,12 @@
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\color_common_google_signin_btn_text_light.xml.flat",
-        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\b0535a9aa0cd592f8bd9001af66807de\\res\\color\\common_google_signin_btn_text_light.xml"
-    },
-    {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\color_common_google_signin_btn_text_light.xml.flat",
+        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-12.0.1.aar\\b0535a9aa0cd592f8bd9001af66807de\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -1124,12 +1116,12 @@
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\color-v23\\abc_tint_spinner.xml"
     },
     {
-        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fui_ic_facebook_white_22dp.xml.flat",
-        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-ui-auth-3.3.0.aar\\54b68891b598fa38639faff15211ea19\\res\\drawable\\fui_ic_facebook_white_22dp.xml"
-    },
-    {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tw__video_replay_btn.xml.flat",
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\tweet-ui-3.2.0.aar\\cbce3317c42699e1d9eedb4cb497cba5\\res\\drawable\\tw__video_replay_btn.xml"
+    },
+    {
+        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fui_ic_facebook_white_22dp.xml.flat",
+        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-ui-auth-3.3.0.aar\\54b68891b598fa38639faff15211ea19\\res\\drawable\\fui_ic_facebook_white_22dp.xml"
     },
     {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_tw__ic_seekbar_bg.9.png.flat",
@@ -1220,20 +1212,20 @@
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\customtabs-27.1.0.aar\\e1252f3ac434b2ca5dadd85f5c2de8fa\\res\\layout\\browser_actions_context_menu_page.xml"
     },
     {
-        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_borderless_material.xml.flat",
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_expanded_menu_layout.xml.flat",
-        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\layout\\abc_expanded_menu_layout.xml"
+        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_design_ic_visibility.xml.flat",
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\d1a4edf6994ce7b1b56e0713f462cac8\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_expanded_menu_layout.xml.flat",
+        "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_custom.xml.flat",
@@ -1334,6 +1326,10 @@
     {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_tw__ic_video_replay_pressed.png.flat",
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\tweet-ui-3.2.0.aar\\cbce3317c42699e1d9eedb4cb497cba5\\res\\drawable-xxhdpi-v4\\tw__ic_video_replay_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_create_pub.xml.flat",
+        "source": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\src\\main\\res\\layout\\activity_create_pub.xml"
     },
     {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -1822,6 +1818,10 @@
     {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tw__video_seekbar.xml.flat",
         "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\tweet-ui-3.2.0.aar\\cbce3317c42699e1d9eedb4cb497cba5\\res\\drawable\\tw__video_seekbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cumtom_text_box.xml.flat",
+        "source": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\src\\main\\res\\drawable\\cumtom_text_box.xml"
     },
     {
         "merged": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_tw__ic_video_play_pressed.png.flat",
