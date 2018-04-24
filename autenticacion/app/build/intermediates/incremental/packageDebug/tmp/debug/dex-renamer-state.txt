@@ -1,4 +1,4 @@
-#Mon Apr 23 14:05:59 COT 2018
-base.0=C\:\\Users\\IAN\\Desktop\\autenticacion\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Tue Apr 24 00:19:50 COT 2018
+base.0=C\:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

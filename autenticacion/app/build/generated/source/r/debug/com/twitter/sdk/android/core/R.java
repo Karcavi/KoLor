@@ -29,8 +29,8 @@ public final class R {
         public static final int tw__login_btn_pressed = 0x7f07010d;
     }
     public static final class id {
-        public static final int tw__spinner = 0x7f08015b;
-        public static final int tw__web_view = 0x7f08016a;
+        public static final int tw__spinner = 0x7f080156;
+        public static final int tw__web_view = 0x7f080165;
     }
     public static final class layout {
         public static final int tw__activity_oauth = 0x7f0a0066;

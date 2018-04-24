@@ -1,11 +1,11 @@
 #Internal package file, do not edit.
-#Thu Apr 19 14:07:43 COT 2018
-1.base=C\:\\Users\\IAN\\Desktop\\autenticacion\\app\\build\\intermediates\\assets\\debug
+#Mon Apr 23 22:42:08 COT 2018
+1.base=C\:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\assets\\debug
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY
 count=2
 1.set=ASSET
 0.path=classes.dex
 0.set=DEX
-0.base=C\:\\Users\\IAN\\Desktop\\autenticacion\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.base=C\:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 1.path=crashlytics-build.properties

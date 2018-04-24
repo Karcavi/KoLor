@@ -55,21 +55,21 @@ public final class R {
         public static final int tw__login_btn_pressed = 0x7f07010d;
     }
     public static final class id {
-        public static final int tw__author_avatar = 0x7f08014a;
-        public static final int tw__char_count = 0x7f08014b;
-        public static final int tw__composer_close = 0x7f08014c;
-        public static final int tw__composer_header = 0x7f08014d;
-        public static final int tw__composer_profile_divider = 0x7f08014e;
-        public static final int tw__composer_scroll_view = 0x7f08014f;
-        public static final int tw__composer_toolbar = 0x7f080150;
-        public static final int tw__composer_toolbar_divider = 0x7f080151;
-        public static final int tw__composer_view = 0x7f080152;
-        public static final int tw__edit_tweet = 0x7f080155;
-        public static final int tw__image_view = 0x7f080158;
-        public static final int tw__post_tweet = 0x7f080159;
-        public static final int tw__spinner = 0x7f08015b;
-        public static final int tw__twitter_logo = 0x7f080167;
-        public static final int tw__web_view = 0x7f08016a;
+        public static final int tw__author_avatar = 0x7f080145;
+        public static final int tw__char_count = 0x7f080146;
+        public static final int tw__composer_close = 0x7f080147;
+        public static final int tw__composer_header = 0x7f080148;
+        public static final int tw__composer_profile_divider = 0x7f080149;
+        public static final int tw__composer_scroll_view = 0x7f08014a;
+        public static final int tw__composer_toolbar = 0x7f08014b;
+        public static final int tw__composer_toolbar_divider = 0x7f08014c;
+        public static final int tw__composer_view = 0x7f08014d;
+        public static final int tw__edit_tweet = 0x7f080150;
+        public static final int tw__image_view = 0x7f080153;
+        public static final int tw__post_tweet = 0x7f080154;
+        public static final int tw__spinner = 0x7f080156;
+        public static final int tw__twitter_logo = 0x7f080162;
+        public static final int tw__web_view = 0x7f080165;
     }
     public static final class layout {
         public static final int tw__activity_composer = 0x7f0a0065;
