@@ -29,6 +29,8 @@ public final class R {
     public static final int fui_slide_out_left=0x7f010011;
     public static final int tw__accelerate_cubic=0x7f010012;
     public static final int tw__slide_out=0x7f010013;
+    public static final int ucrop_loader_circle_path=0x7f010014;
+    public static final int ucrop_loader_circle_scale=0x7f010015;
   }
   public static final class animator {
     public static final int design_appbar_state_list_animator=0x7f020000;
@@ -3520,37 +3522,120 @@ public final class R {
      */
     public static final int tw__twitter_logo=0x7f0301b9;
     /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int ucrop_artv_ratio_title=0x7f0301ba;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int ucrop_artv_ratio_x=0x7f0301bb;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int ucrop_artv_ratio_y=0x7f0301bc;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int ucrop_aspect_ratio_x=0x7f0301bd;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int ucrop_aspect_ratio_y=0x7f0301be;
+    /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int useCompatPadding=0x7f0301ba;
+    public static final int ucrop_circle_dimmed_layer=0x7f0301bf;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int ucrop_dimmed_color=0x7f0301c0;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int ucrop_frame_color=0x7f0301c1;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int ucrop_frame_stroke_size=0x7f0301c2;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int ucrop_grid_color=0x7f0301c3;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int ucrop_grid_column_count=0x7f0301c4;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int ucrop_grid_row_count=0x7f0301c5;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int ucrop_grid_stroke_size=0x7f0301c6;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int ucrop_show_frame=0x7f0301c7;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int ucrop_show_grid=0x7f0301c8;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int ucrop_show_oval_crop_frame=0x7f0301c9;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int useCompatPadding=0x7f0301ca;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int viewInflaterClass=0x7f0301bb;
+    public static final int viewInflaterClass=0x7f0301cb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int voiceIcon=0x7f0301bc;
+    public static final int voiceIcon=0x7f0301cc;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBar=0x7f0301bd;
+    public static final int windowActionBar=0x7f0301cd;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBarOverlay=0x7f0301be;
+    public static final int windowActionBarOverlay=0x7f0301ce;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionModeOverlay=0x7f0301bf;
+    public static final int windowActionModeOverlay=0x7f0301cf;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3562,7 +3647,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMajor=0x7f0301c0;
+    public static final int windowFixedHeightMajor=0x7f0301d0;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3574,7 +3659,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMinor=0x7f0301c1;
+    public static final int windowFixedHeightMinor=0x7f0301d1;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3586,7 +3671,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMajor=0x7f0301c2;
+    public static final int windowFixedWidthMajor=0x7f0301d2;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3598,7 +3683,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMinor=0x7f0301c3;
+    public static final int windowFixedWidthMinor=0x7f0301d3;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3610,7 +3695,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMajor=0x7f0301c4;
+    public static final int windowMinWidthMajor=0x7f0301d4;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3622,12 +3707,12 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMinor=0x7f0301c5;
+    public static final int windowMinWidthMinor=0x7f0301d5;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowNoTitle=0x7f0301c6;
+    public static final int windowNoTitle=0x7f0301d6;
   }
   public static final class bool {
     public static final int abc_action_bar_embed_tabs=0x7f040000;
@@ -4051,22 +4136,36 @@ public final class R {
     public static final int tw__tweet_dark_primary_text_color=0x7f05019c;
     public static final int tw__tweet_light_container_bg_color=0x7f05019d;
     public static final int tw__tweet_light_primary_text_color=0x7f05019e;
-    public static final int white=0x7f05019f;
-    public static final int yellow=0x7f0501a0;
-    public static final int yellow_100=0x7f0501a1;
-    public static final int yellow_200=0x7f0501a2;
-    public static final int yellow_300=0x7f0501a3;
-    public static final int yellow_400=0x7f0501a4;
-    public static final int yellow_50=0x7f0501a5;
-    public static final int yellow_500=0x7f0501a6;
-    public static final int yellow_600=0x7f0501a7;
-    public static final int yellow_700=0x7f0501a8;
-    public static final int yellow_800=0x7f0501a9;
-    public static final int yellow_900=0x7f0501aa;
-    public static final int yellow_a100=0x7f0501ab;
-    public static final int yellow_a200=0x7f0501ac;
-    public static final int yellow_a400=0x7f0501ad;
-    public static final int yellow_a700=0x7f0501ae;
+    public static final int ucrop_color_crop_background=0x7f05019f;
+    public static final int ucrop_color_default_crop_frame=0x7f0501a0;
+    public static final int ucrop_color_default_crop_grid=0x7f0501a1;
+    public static final int ucrop_color_default_dimmed=0x7f0501a2;
+    public static final int ucrop_color_default_logo=0x7f0501a3;
+    public static final int ucrop_color_progress_wheel_line=0x7f0501a4;
+    public static final int ucrop_color_statusbar=0x7f0501a5;
+    public static final int ucrop_color_toolbar=0x7f0501a6;
+    public static final int ucrop_color_toolbar_widget=0x7f0501a7;
+    public static final int ucrop_color_widget=0x7f0501a8;
+    public static final int ucrop_color_widget_active=0x7f0501a9;
+    public static final int ucrop_color_widget_background=0x7f0501aa;
+    public static final int ucrop_color_widget_text=0x7f0501ab;
+    public static final int ucrop_scale_text_view_selector=0x7f0501ac;
+    public static final int white=0x7f0501ad;
+    public static final int yellow=0x7f0501ae;
+    public static final int yellow_100=0x7f0501af;
+    public static final int yellow_200=0x7f0501b0;
+    public static final int yellow_300=0x7f0501b1;
+    public static final int yellow_400=0x7f0501b2;
+    public static final int yellow_50=0x7f0501b3;
+    public static final int yellow_500=0x7f0501b4;
+    public static final int yellow_600=0x7f0501b5;
+    public static final int yellow_700=0x7f0501b6;
+    public static final int yellow_800=0x7f0501b7;
+    public static final int yellow_900=0x7f0501b8;
+    public static final int yellow_a100=0x7f0501b9;
+    public static final int yellow_a200=0x7f0501ba;
+    public static final int yellow_a400=0x7f0501bb;
+    public static final int yellow_a700=0x7f0501bc;
   }
   public static final class dimen {
     public static final int abc_action_bar_content_inset_material=0x7f060000;
@@ -4362,6 +4461,25 @@ public final class R {
     public static final int tw__tweet_timestamp_padding_left=0x7f060122;
     public static final int tw__video_control_height=0x7f060123;
     public static final int tw__video_control_text_size=0x7f060124;
+    public static final int ucrop_default_crop_frame_stoke_width=0x7f060125;
+    public static final int ucrop_default_crop_grid_stoke_width=0x7f060126;
+    public static final int ucrop_default_crop_logo_size=0x7f060127;
+    public static final int ucrop_default_crop_rect_corner_touch_area_line_length=0x7f060128;
+    public static final int ucrop_default_crop_rect_corner_touch_threshold=0x7f060129;
+    public static final int ucrop_default_crop_rect_min_size=0x7f06012a;
+    public static final int ucrop_height_crop_aspect_ratio_text=0x7f06012b;
+    public static final int ucrop_height_divider_shadow=0x7f06012c;
+    public static final int ucrop_height_horizontal_wheel_progress_line=0x7f06012d;
+    public static final int ucrop_height_wrapper_controls=0x7f06012e;
+    public static final int ucrop_height_wrapper_states=0x7f06012f;
+    public static final int ucrop_margin_horizontal_wheel_progress_line=0x7f060130;
+    public static final int ucrop_margit_top_widget_text=0x7f060131;
+    public static final int ucrop_padding_crop_frame=0x7f060132;
+    public static final int ucrop_progress_size=0x7f060133;
+    public static final int ucrop_size_dot_scale_text_view=0x7f060134;
+    public static final int ucrop_size_wrapper_rotate_button=0x7f060135;
+    public static final int ucrop_text_size_widget_text=0x7f060136;
+    public static final int ucrop_width_horizontal_wheel_progress_line=0x7f060137;
   }
   public static final class drawable {
     public static final int abc_ab_share_pack_mtrl_alpha=0x7f070006;
@@ -4638,6 +4756,18 @@ public final class R {
     public static final int tw__video_replay_btn=0x7f070115;
     public static final int tw__video_seekbar=0x7f070116;
     public static final int tw__vine_badge=0x7f070117;
+    public static final int ucrop_ic_angle=0x7f070118;
+    public static final int ucrop_ic_crop=0x7f070119;
+    public static final int ucrop_ic_cross=0x7f07011a;
+    public static final int ucrop_ic_done=0x7f07011b;
+    public static final int ucrop_ic_next=0x7f07011c;
+    public static final int ucrop_ic_reset=0x7f07011d;
+    public static final int ucrop_ic_rotate=0x7f07011e;
+    public static final int ucrop_ic_scale=0x7f07011f;
+    public static final int ucrop_shadow_upside=0x7f070120;
+    public static final int ucrop_vector_ic_crop=0x7f070121;
+    public static final int ucrop_vector_loader=0x7f070122;
+    public static final int ucrop_vector_loader_animated=0x7f070123;
   }
   public static final class id {
     public static final int ALT=0x7f080000;
@@ -4808,220 +4938,243 @@ public final class R {
     public static final int ifRoom=0x7f0800a5;
     public static final int image=0x7f0800a6;
     public static final int imageView=0x7f0800a7;
-    public static final int info=0x7f0800a8;
-    public static final int inline=0x7f0800a9;
-    public static final int invisible=0x7f0800aa;
-    public static final int italic=0x7f0800ab;
-    public static final int item_touch_helper_previous_elevation=0x7f0800ac;
-    public static final int large=0x7f0800ad;
-    public static final int largeLabel=0x7f0800ae;
-    public static final int left=0x7f0800af;
-    public static final int light=0x7f0800b0;
-    public static final int line1=0x7f0800b1;
-    public static final int line3=0x7f0800b2;
-    public static final int listMode=0x7f0800b3;
-    public static final int listView=0x7f0800b4;
-    public static final int list_item=0x7f0800b5;
-    public static final int list_view=0x7f0800b6;
-    public static final int logo=0x7f0800b7;
-    public static final int main_layout=0x7f0800b8;
-    public static final int masked=0x7f0800b9;
-    public static final int media_actions=0x7f0800ba;
-    public static final int message=0x7f0800bb;
-    public static final int middle=0x7f0800bc;
-    public static final int mini=0x7f0800bd;
-    public static final int multiply=0x7f0800be;
-    public static final int name=0x7f0800bf;
-    public static final int name_layout=0x7f0800c0;
-    public static final int navigation=0x7f0800c1;
-    public static final int navigation_dashboard=0x7f0800c2;
-    public static final int navigation_header_container=0x7f0800c3;
-    public static final int navigation_home=0x7f0800c4;
-    public static final int navigation_profile=0x7f0800c5;
-    public static final int never=0x7f0800c6;
-    public static final int never_display=0x7f0800c7;
-    public static final int none=0x7f0800c8;
-    public static final int normal=0x7f0800c9;
-    public static final int notification_background=0x7f0800ca;
-    public static final int notification_main_column=0x7f0800cb;
-    public static final int notification_main_column_container=0x7f0800cc;
-    public static final int open_graph=0x7f0800cd;
-    public static final int packed=0x7f0800ce;
-    public static final int page=0x7f0800cf;
-    public static final int parallax=0x7f0800d0;
-    public static final int parent=0x7f0800d1;
-    public static final int parentPanel=0x7f0800d2;
-    public static final int parent_matrix=0x7f0800d3;
-    public static final int password=0x7f0800d4;
-    public static final int password_fields=0x7f0800d5;
-    public static final int password_layout=0x7f0800d6;
-    public static final int passwordless_buttons=0x7f0800d7;
-    public static final int passwordless_fields=0x7f0800d8;
-    public static final int passwordless_send_email_button=0x7f0800d9;
-    public static final int passwordless_sign_in_button=0x7f0800da;
-    public static final int percent=0x7f0800db;
-    public static final int phone_auth_fields=0x7f0800dc;
-    public static final int phone_button=0x7f0800dd;
-    public static final int phone_layout=0x7f0800de;
-    public static final int phone_number=0x7f0800df;
-    public static final int pin=0x7f0800e0;
-    public static final int progress_bar=0x7f0800e1;
-    public static final int progress_circular=0x7f0800e2;
-    public static final int progress_horizontal=0x7f0800e3;
-    public static final int progress_msg=0x7f0800e4;
-    public static final int progress_success_imaage=0x7f0800e5;
-    public static final int quote_tweet_holder=0x7f0800e6;
-    public static final int radio=0x7f0800e7;
-    public static final int resend_code=0x7f0800e8;
-    public static final int right=0x7f0800e9;
-    public static final int right_icon=0x7f0800ea;
-    public static final int right_side=0x7f0800eb;
-    public static final int root=0x7f0800ec;
-    public static final int save_image_matrix=0x7f0800ed;
-    public static final int save_non_transition_alpha=0x7f0800ee;
-    public static final int save_scale_type=0x7f0800ef;
-    public static final int screen=0x7f0800f0;
-    public static final int scroll=0x7f0800f1;
-    public static final int scrollIndicatorDown=0x7f0800f2;
-    public static final int scrollIndicatorUp=0x7f0800f3;
-    public static final int scrollView=0x7f0800f4;
-    public static final int scrollable=0x7f0800f5;
-    public static final int search_badge=0x7f0800f6;
-    public static final int search_bar=0x7f0800f7;
-    public static final int search_button=0x7f0800f8;
-    public static final int search_close_btn=0x7f0800f9;
-    public static final int search_edit_frame=0x7f0800fa;
-    public static final int search_go_btn=0x7f0800fb;
-    public static final int search_mag_icon=0x7f0800fc;
-    public static final int search_plate=0x7f0800fd;
-    public static final int search_src_text=0x7f0800fe;
-    public static final int search_voice_btn=0x7f0800ff;
-    public static final int select_dialog_listview=0x7f080100;
-    public static final int send_code=0x7f080101;
-    public static final int send_sms_tos=0x7f080102;
-    public static final int shortcut=0x7f080103;
-    public static final int showCustom=0x7f080104;
-    public static final int showHome=0x7f080105;
-    public static final int showTitle=0x7f080106;
-    public static final int sign_in_button=0x7f080107;
-    public static final int sign_out_and_disconnect=0x7f080108;
-    public static final int sign_out_button=0x7f080109;
-    public static final int sign_out_buttonF=0x7f08010a;
-    public static final int signed_in_buttons=0x7f08010b;
-    public static final int small=0x7f08010c;
-    public static final int smallLabel=0x7f08010d;
-    public static final int snackbar_action=0x7f08010e;
-    public static final int snackbar_text=0x7f08010f;
-    public static final int snap=0x7f080110;
-    public static final int spacer=0x7f080111;
-    public static final int split_action_bar=0x7f080112;
-    public static final int spread=0x7f080113;
-    public static final int spread_inside=0x7f080114;
-    public static final int src_atop=0x7f080115;
-    public static final int src_in=0x7f080116;
-    public static final int src_over=0x7f080117;
-    public static final int standard=0x7f080118;
-    public static final int start=0x7f080119;
-    public static final int status=0x7f08011a;
-    public static final int status_bar_latest_event_content=0x7f08011b;
-    public static final int submenuarrow=0x7f08011c;
-    public static final int submit_area=0x7f08011d;
-    public static final int submit_confirmation_code=0x7f08011e;
-    public static final int tabMode=0x7f08011f;
-    public static final int tag_transition_group=0x7f080120;
-    public static final int text=0x7f080121;
-    public static final int text2=0x7f080122;
-    public static final int textSpacerNoButtons=0x7f080123;
-    public static final int textSpacerNoTitle=0x7f080124;
-    public static final int text_create_account=0x7f080125;
-    public static final int text_input_password_toggle=0x7f080126;
-    public static final int text_sign_in_status=0x7f080127;
-    public static final int text_token_status=0x7f080128;
-    public static final int textinput_counter=0x7f080129;
-    public static final int textinput_error=0x7f08012a;
-    public static final int ticker=0x7f08012b;
-    public static final int time=0x7f08012c;
-    public static final int title=0x7f08012d;
-    public static final int titleContact=0x7f08012e;
-    public static final int titleDividerNoCustom=0x7f08012f;
-    public static final int titleEmail=0x7f080130;
-    public static final int titlePhoneNumber=0x7f080131;
-    public static final int title_anonymous=0x7f080132;
-    public static final int title_linking=0x7f080133;
-    public static final int title_pub=0x7f080134;
-    public static final int title_template=0x7f080135;
-    public static final int title_text=0x7f080136;
-    public static final int top=0x7f080137;
-    public static final int topPanel=0x7f080138;
-    public static final int tos_barrier=0x7f080139;
-    public static final int touch_outside=0x7f08013a;
-    public static final int transition_current_scene=0x7f08013b;
-    public static final int transition_layout_save=0x7f08013c;
-    public static final int transition_position=0x7f08013d;
-    public static final int transition_scene_layoutid_cache=0x7f08013e;
-    public static final int transition_transform=0x7f08013f;
-    public static final int trouble_signing_in=0x7f080140;
-    public static final int tw__aspect_ratio_media_container=0x7f080141;
-    public static final int tw__author_attribution=0x7f080142;
-    public static final int tw__author_avatar=0x7f080143;
-    public static final int tw__char_count=0x7f080144;
-    public static final int tw__composer_close=0x7f080145;
-    public static final int tw__composer_header=0x7f080146;
-    public static final int tw__composer_profile_divider=0x7f080147;
-    public static final int tw__composer_scroll_view=0x7f080148;
-    public static final int tw__composer_toolbar=0x7f080149;
-    public static final int tw__composer_toolbar_divider=0x7f08014a;
-    public static final int tw__composer_view=0x7f08014b;
-    public static final int tw__current_time=0x7f08014c;
-    public static final int tw__duration=0x7f08014d;
-    public static final int tw__edit_tweet=0x7f08014e;
-    public static final int tw__entity_index=0x7f08014f;
-    public static final int tw__gif_badge=0x7f080150;
-    public static final int tw__image_view=0x7f080151;
-    public static final int tw__post_tweet=0x7f080152;
-    public static final int tw__progress=0x7f080153;
-    public static final int tw__spinner=0x7f080154;
-    public static final int tw__state_control=0x7f080155;
-    public static final int tw__tweet_action_bar=0x7f080156;
-    public static final int tw__tweet_author_avatar=0x7f080157;
-    public static final int tw__tweet_author_full_name=0x7f080158;
-    public static final int tw__tweet_author_screen_name=0x7f080159;
-    public static final int tw__tweet_like_button=0x7f08015a;
-    public static final int tw__tweet_media_badge=0x7f08015b;
-    public static final int tw__tweet_retweeted_by=0x7f08015c;
-    public static final int tw__tweet_share_button=0x7f08015d;
-    public static final int tw__tweet_text=0x7f08015e;
-    public static final int tw__tweet_timestamp=0x7f08015f;
-    public static final int tw__twitter_logo=0x7f080160;
-    public static final int tw__video_duration=0x7f080161;
-    public static final int tw__view_pager=0x7f080162;
-    public static final int tw__web_view=0x7f080163;
-    public static final int tweet_media_view=0x7f080164;
-    public static final int twitter_button=0x7f080165;
-    public static final int txtEmail=0x7f080166;
-    public static final int txtLastName=0x7f080167;
-    public static final int txtName=0x7f080168;
-    public static final int txtPhoneNumber=0x7f080169;
-    public static final int txt_login=0x7f08016a;
-    public static final int txt_register=0x7f08016b;
-    public static final int uniform=0x7f08016c;
-    public static final int unknown=0x7f08016d;
-    public static final int up=0x7f08016e;
-    public static final int useLogo=0x7f08016f;
-    public static final int verify_email_button=0x7f080170;
-    public static final int video_control_view=0x7f080171;
-    public static final int video_progress_view=0x7f080172;
-    public static final int video_view=0x7f080173;
-    public static final int view_offset_helper=0x7f080174;
-    public static final int visible=0x7f080175;
-    public static final int welcome_back_idp_button=0x7f080176;
-    public static final int welcome_back_idp_prompt=0x7f080177;
-    public static final int welcome_back_password_body=0x7f080178;
-    public static final int wide=0x7f080179;
-    public static final int width=0x7f08017a;
-    public static final int withText=0x7f08017b;
-    public static final int wrap=0x7f08017c;
-    public static final int wrap_content=0x7f08017d;
+    public static final int image_view_crop=0x7f0800a8;
+    public static final int image_view_logo=0x7f0800a9;
+    public static final int image_view_state_aspect_ratio=0x7f0800aa;
+    public static final int image_view_state_rotate=0x7f0800ab;
+    public static final int image_view_state_scale=0x7f0800ac;
+    public static final int info=0x7f0800ad;
+    public static final int inline=0x7f0800ae;
+    public static final int invisible=0x7f0800af;
+    public static final int italic=0x7f0800b0;
+    public static final int item_touch_helper_previous_elevation=0x7f0800b1;
+    public static final int large=0x7f0800b2;
+    public static final int largeLabel=0x7f0800b3;
+    public static final int layout_aspect_ratio=0x7f0800b4;
+    public static final int layout_rotate_wheel=0x7f0800b5;
+    public static final int layout_scale_wheel=0x7f0800b6;
+    public static final int left=0x7f0800b7;
+    public static final int light=0x7f0800b8;
+    public static final int line1=0x7f0800b9;
+    public static final int line3=0x7f0800ba;
+    public static final int listMode=0x7f0800bb;
+    public static final int listView=0x7f0800bc;
+    public static final int list_item=0x7f0800bd;
+    public static final int list_view=0x7f0800be;
+    public static final int logo=0x7f0800bf;
+    public static final int main_layout=0x7f0800c0;
+    public static final int masked=0x7f0800c1;
+    public static final int media_actions=0x7f0800c2;
+    public static final int menu_crop=0x7f0800c3;
+    public static final int menu_loader=0x7f0800c4;
+    public static final int message=0x7f0800c5;
+    public static final int middle=0x7f0800c6;
+    public static final int mini=0x7f0800c7;
+    public static final int multiply=0x7f0800c8;
+    public static final int name=0x7f0800c9;
+    public static final int name_layout=0x7f0800ca;
+    public static final int navigation=0x7f0800cb;
+    public static final int navigation_dashboard=0x7f0800cc;
+    public static final int navigation_header_container=0x7f0800cd;
+    public static final int navigation_home=0x7f0800ce;
+    public static final int navigation_profile=0x7f0800cf;
+    public static final int never=0x7f0800d0;
+    public static final int never_display=0x7f0800d1;
+    public static final int none=0x7f0800d2;
+    public static final int normal=0x7f0800d3;
+    public static final int notification_background=0x7f0800d4;
+    public static final int notification_main_column=0x7f0800d5;
+    public static final int notification_main_column_container=0x7f0800d6;
+    public static final int open_graph=0x7f0800d7;
+    public static final int packed=0x7f0800d8;
+    public static final int page=0x7f0800d9;
+    public static final int parallax=0x7f0800da;
+    public static final int parent=0x7f0800db;
+    public static final int parentPanel=0x7f0800dc;
+    public static final int parent_matrix=0x7f0800dd;
+    public static final int password=0x7f0800de;
+    public static final int password_fields=0x7f0800df;
+    public static final int password_layout=0x7f0800e0;
+    public static final int percent=0x7f0800e1;
+    public static final int phone_auth_fields=0x7f0800e2;
+    public static final int phone_button=0x7f0800e3;
+    public static final int phone_layout=0x7f0800e4;
+    public static final int phone_number=0x7f0800e5;
+    public static final int pin=0x7f0800e6;
+    public static final int progress_bar=0x7f0800e7;
+    public static final int progress_circular=0x7f0800e8;
+    public static final int progress_horizontal=0x7f0800e9;
+    public static final int progress_msg=0x7f0800ea;
+    public static final int progress_success_imaage=0x7f0800eb;
+    public static final int quote_tweet_holder=0x7f0800ec;
+    public static final int radio=0x7f0800ed;
+    public static final int resend_code=0x7f0800ee;
+    public static final int right=0x7f0800ef;
+    public static final int right_icon=0x7f0800f0;
+    public static final int right_side=0x7f0800f1;
+    public static final int root=0x7f0800f2;
+    public static final int rotate_scroll_wheel=0x7f0800f3;
+    public static final int save_image_matrix=0x7f0800f4;
+    public static final int save_non_transition_alpha=0x7f0800f5;
+    public static final int save_scale_type=0x7f0800f6;
+    public static final int scale_scroll_wheel=0x7f0800f7;
+    public static final int screen=0x7f0800f8;
+    public static final int scroll=0x7f0800f9;
+    public static final int scrollIndicatorDown=0x7f0800fa;
+    public static final int scrollIndicatorUp=0x7f0800fb;
+    public static final int scrollView=0x7f0800fc;
+    public static final int scrollable=0x7f0800fd;
+    public static final int search_badge=0x7f0800fe;
+    public static final int search_bar=0x7f0800ff;
+    public static final int search_button=0x7f080100;
+    public static final int search_close_btn=0x7f080101;
+    public static final int search_edit_frame=0x7f080102;
+    public static final int search_go_btn=0x7f080103;
+    public static final int search_mag_icon=0x7f080104;
+    public static final int search_plate=0x7f080105;
+    public static final int search_src_text=0x7f080106;
+    public static final int search_voice_btn=0x7f080107;
+    public static final int select_dialog_listview=0x7f080108;
+    public static final int send_code=0x7f080109;
+    public static final int send_sms_tos=0x7f08010a;
+    public static final int shortcut=0x7f08010b;
+    public static final int showCustom=0x7f08010c;
+    public static final int showHome=0x7f08010d;
+    public static final int showTitle=0x7f08010e;
+    public static final int sign_in_button=0x7f08010f;
+    public static final int sign_out_and_disconnect=0x7f080110;
+    public static final int sign_out_button=0x7f080111;
+    public static final int sign_out_buttonF=0x7f080112;
+    public static final int signed_in_buttons=0x7f080113;
+    public static final int small=0x7f080114;
+    public static final int smallLabel=0x7f080115;
+    public static final int snackbar_action=0x7f080116;
+    public static final int snackbar_text=0x7f080117;
+    public static final int snap=0x7f080118;
+    public static final int spacer=0x7f080119;
+    public static final int split_action_bar=0x7f08011a;
+    public static final int spread=0x7f08011b;
+    public static final int spread_inside=0x7f08011c;
+    public static final int src_atop=0x7f08011d;
+    public static final int src_in=0x7f08011e;
+    public static final int src_over=0x7f08011f;
+    public static final int standard=0x7f080120;
+    public static final int start=0x7f080121;
+    public static final int state_aspect_ratio=0x7f080122;
+    public static final int state_rotate=0x7f080123;
+    public static final int state_scale=0x7f080124;
+    public static final int status=0x7f080125;
+    public static final int status_bar_latest_event_content=0x7f080126;
+    public static final int submenuarrow=0x7f080127;
+    public static final int submit_area=0x7f080128;
+    public static final int submit_confirmation_code=0x7f080129;
+    public static final int tabMode=0x7f08012a;
+    public static final int tag_transition_group=0x7f08012b;
+    public static final int text=0x7f08012c;
+    public static final int text2=0x7f08012d;
+    public static final int textSpacerNoButtons=0x7f08012e;
+    public static final int textSpacerNoTitle=0x7f08012f;
+    public static final int text_create_account=0x7f080130;
+    public static final int text_input_password_toggle=0x7f080131;
+    public static final int text_sign_in_status=0x7f080132;
+    public static final int text_token_status=0x7f080133;
+    public static final int text_view_rotate=0x7f080134;
+    public static final int text_view_scale=0x7f080135;
+    public static final int textinput_counter=0x7f080136;
+    public static final int textinput_error=0x7f080137;
+    public static final int ticker=0x7f080138;
+    public static final int time=0x7f080139;
+    public static final int title=0x7f08013a;
+    public static final int titleContact=0x7f08013b;
+    public static final int titleDividerNoCustom=0x7f08013c;
+    public static final int titleEmail=0x7f08013d;
+    public static final int titlePhoneNumber=0x7f08013e;
+    public static final int title_anonymous=0x7f08013f;
+    public static final int title_linking=0x7f080140;
+    public static final int title_pub=0x7f080141;
+    public static final int title_template=0x7f080142;
+    public static final int title_text=0x7f080143;
+    public static final int toolbar=0x7f080144;
+    public static final int toolbar_title=0x7f080145;
+    public static final int top=0x7f080146;
+    public static final int topPanel=0x7f080147;
+    public static final int tos_barrier=0x7f080148;
+    public static final int touch_outside=0x7f080149;
+    public static final int transition_current_scene=0x7f08014a;
+    public static final int transition_layout_save=0x7f08014b;
+    public static final int transition_position=0x7f08014c;
+    public static final int transition_scene_layoutid_cache=0x7f08014d;
+    public static final int transition_transform=0x7f08014e;
+    public static final int trouble_signing_in=0x7f08014f;
+    public static final int tw__aspect_ratio_media_container=0x7f080150;
+    public static final int tw__author_attribution=0x7f080151;
+    public static final int tw__author_avatar=0x7f080152;
+    public static final int tw__char_count=0x7f080153;
+    public static final int tw__composer_close=0x7f080154;
+    public static final int tw__composer_header=0x7f080155;
+    public static final int tw__composer_profile_divider=0x7f080156;
+    public static final int tw__composer_scroll_view=0x7f080157;
+    public static final int tw__composer_toolbar=0x7f080158;
+    public static final int tw__composer_toolbar_divider=0x7f080159;
+    public static final int tw__composer_view=0x7f08015a;
+    public static final int tw__current_time=0x7f08015b;
+    public static final int tw__duration=0x7f08015c;
+    public static final int tw__edit_tweet=0x7f08015d;
+    public static final int tw__entity_index=0x7f08015e;
+    public static final int tw__gif_badge=0x7f08015f;
+    public static final int tw__image_view=0x7f080160;
+    public static final int tw__post_tweet=0x7f080161;
+    public static final int tw__progress=0x7f080162;
+    public static final int tw__spinner=0x7f080163;
+    public static final int tw__state_control=0x7f080164;
+    public static final int tw__tweet_action_bar=0x7f080165;
+    public static final int tw__tweet_author_avatar=0x7f080166;
+    public static final int tw__tweet_author_full_name=0x7f080167;
+    public static final int tw__tweet_author_screen_name=0x7f080168;
+    public static final int tw__tweet_like_button=0x7f080169;
+    public static final int tw__tweet_media_badge=0x7f08016a;
+    public static final int tw__tweet_retweeted_by=0x7f08016b;
+    public static final int tw__tweet_share_button=0x7f08016c;
+    public static final int tw__tweet_text=0x7f08016d;
+    public static final int tw__tweet_timestamp=0x7f08016e;
+    public static final int tw__twitter_logo=0x7f08016f;
+    public static final int tw__video_duration=0x7f080170;
+    public static final int tw__view_pager=0x7f080171;
+    public static final int tw__web_view=0x7f080172;
+    public static final int tweet_media_view=0x7f080173;
+    public static final int twitter_button=0x7f080174;
+    public static final int txtEmail=0x7f080175;
+    public static final int txtLastName=0x7f080176;
+    public static final int txtName=0x7f080177;
+    public static final int txtPhoneNumber=0x7f080178;
+    public static final int txt_login=0x7f080179;
+    public static final int txt_register=0x7f08017a;
+    public static final int ucrop=0x7f08017b;
+    public static final int ucrop_frame=0x7f08017c;
+    public static final int ucrop_photobox=0x7f08017d;
+    public static final int uniform=0x7f08017e;
+    public static final int unknown=0x7f08017f;
+    public static final int up=0x7f080180;
+    public static final int useLogo=0x7f080181;
+    public static final int verify_email_button=0x7f080182;
+    public static final int video_control_view=0x7f080183;
+    public static final int video_progress_view=0x7f080184;
+    public static final int video_view=0x7f080185;
+    public static final int view_offset_helper=0x7f080186;
+    public static final int view_overlay=0x7f080187;
+    public static final int visible=0x7f080188;
+    public static final int welcome_back_idp_button=0x7f080189;
+    public static final int welcome_back_idp_prompt=0x7f08018a;
+    public static final int welcome_back_password_body=0x7f08018b;
+    public static final int wide=0x7f08018c;
+    public static final int width=0x7f08018d;
+    public static final int withText=0x7f08018e;
+    public static final int wrap=0x7f08018f;
+    public static final int wrap_content=0x7f080190;
+    public static final int wrapper_controls=0x7f080191;
+    public static final int wrapper_reset_rotate=0x7f080192;
+    public static final int wrapper_rotate_by_angle=0x7f080193;
+    public static final int wrapper_states=0x7f080194;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f090000;
@@ -5036,6 +5189,7 @@ public final class R {
     public static final int hide_password_duration=0x7f090009;
     public static final int show_password_duration=0x7f09000a;
     public static final int status_bar_notification_info_maxnum=0x7f09000b;
+    public static final int ucrop_progress_loading_anim_time=0x7f09000c;
   }
   public static final class layout {
     public static final int abc_action_bar_title_item=0x7f0a0000;
@@ -5075,83 +5229,90 @@ public final class R {
     public static final int activity_google=0x7f0a0022;
     public static final int activity_login=0x7f0a0023;
     public static final int activity_main=0x7f0a0024;
-    public static final int activity_passwordless=0x7f0a0025;
-    public static final int activity_phone_auth=0x7f0a0026;
-    public static final int activity_twitter=0x7f0a0027;
-    public static final int browser_actions_context_menu_page=0x7f0a0028;
-    public static final int browser_actions_context_menu_row=0x7f0a0029;
-    public static final int com_facebook_activity_layout=0x7f0a002a;
-    public static final int com_facebook_device_auth_dialog_fragment=0x7f0a002b;
-    public static final int com_facebook_login_fragment=0x7f0a002c;
-    public static final int com_facebook_smart_device_dialog_fragment=0x7f0a002d;
-    public static final int com_facebook_tooltip_bubble=0x7f0a002e;
-    public static final int design_bottom_navigation_item=0x7f0a002f;
-    public static final int design_bottom_sheet_dialog=0x7f0a0030;
-    public static final int design_layout_snackbar=0x7f0a0031;
-    public static final int design_layout_snackbar_include=0x7f0a0032;
-    public static final int design_layout_tab_icon=0x7f0a0033;
-    public static final int design_layout_tab_text=0x7f0a0034;
-    public static final int design_menu_item_action_area=0x7f0a0035;
-    public static final int design_navigation_item=0x7f0a0036;
-    public static final int design_navigation_item_header=0x7f0a0037;
-    public static final int design_navigation_item_separator=0x7f0a0038;
-    public static final int design_navigation_item_subheader=0x7f0a0039;
-    public static final int design_navigation_menu=0x7f0a003a;
-    public static final int design_navigation_menu_item=0x7f0a003b;
-    public static final int design_text_input_password_icon=0x7f0a003c;
-    public static final int fragment_dashboard=0x7f0a003d;
-    public static final int fragment_home=0x7f0a003e;
-    public static final int fragment_profile=0x7f0a003f;
-    public static final int fui_activity_register_email=0x7f0a0040;
-    public static final int fui_activity_register_phone=0x7f0a0041;
-    public static final int fui_auth_method_picker_layout=0x7f0a0042;
-    public static final int fui_check_email_layout=0x7f0a0043;
-    public static final int fui_confirmation_code_layout=0x7f0a0044;
-    public static final int fui_dgts_country_row=0x7f0a0045;
-    public static final int fui_forgot_password_layout=0x7f0a0046;
-    public static final int fui_idp_button_facebook=0x7f0a0047;
-    public static final int fui_idp_button_google=0x7f0a0048;
-    public static final int fui_idp_button_twitter=0x7f0a0049;
-    public static final int fui_phone_layout=0x7f0a004a;
-    public static final int fui_phone_progress_dialog=0x7f0a004b;
-    public static final int fui_provider_button_email=0x7f0a004c;
-    public static final int fui_provider_button_phone=0x7f0a004d;
-    public static final int fui_register_email_layout=0x7f0a004e;
-    public static final int fui_welcome_back_idp_prompt_layout=0x7f0a004f;
-    public static final int fui_welcome_back_password_prompt_layout=0x7f0a0050;
-    public static final int notification_action=0x7f0a0051;
-    public static final int notification_action_tombstone=0x7f0a0052;
-    public static final int notification_media_action=0x7f0a0053;
-    public static final int notification_media_cancel_action=0x7f0a0054;
-    public static final int notification_template_big_media=0x7f0a0055;
-    public static final int notification_template_big_media_custom=0x7f0a0056;
-    public static final int notification_template_big_media_narrow=0x7f0a0057;
-    public static final int notification_template_big_media_narrow_custom=0x7f0a0058;
-    public static final int notification_template_custom_big=0x7f0a0059;
-    public static final int notification_template_icon_group=0x7f0a005a;
-    public static final int notification_template_lines_media=0x7f0a005b;
-    public static final int notification_template_media=0x7f0a005c;
-    public static final int notification_template_media_custom=0x7f0a005d;
-    public static final int notification_template_part_chronometer=0x7f0a005e;
-    public static final int notification_template_part_time=0x7f0a005f;
-    public static final int select_dialog_item_material=0x7f0a0060;
-    public static final int select_dialog_multichoice_material=0x7f0a0061;
-    public static final int select_dialog_singlechoice_material=0x7f0a0062;
-    public static final int support_simple_spinner_dropdown_item=0x7f0a0063;
-    public static final int tw__action_bar=0x7f0a0064;
-    public static final int tw__activity_composer=0x7f0a0065;
-    public static final int tw__activity_oauth=0x7f0a0066;
-    public static final int tw__composer_view=0x7f0a0067;
-    public static final int tw__gallery_activity=0x7f0a0068;
-    public static final int tw__media_badge=0x7f0a0069;
-    public static final int tw__player_activity=0x7f0a006a;
-    public static final int tw__tweet=0x7f0a006b;
-    public static final int tw__tweet_compact=0x7f0a006c;
-    public static final int tw__tweet_quote=0x7f0a006d;
-    public static final int tw__video_control=0x7f0a006e;
+    public static final int activity_phone_auth=0x7f0a0025;
+    public static final int activity_twitter=0x7f0a0026;
+    public static final int browser_actions_context_menu_page=0x7f0a0027;
+    public static final int browser_actions_context_menu_row=0x7f0a0028;
+    public static final int com_facebook_activity_layout=0x7f0a0029;
+    public static final int com_facebook_device_auth_dialog_fragment=0x7f0a002a;
+    public static final int com_facebook_login_fragment=0x7f0a002b;
+    public static final int com_facebook_smart_device_dialog_fragment=0x7f0a002c;
+    public static final int com_facebook_tooltip_bubble=0x7f0a002d;
+    public static final int design_bottom_navigation_item=0x7f0a002e;
+    public static final int design_bottom_sheet_dialog=0x7f0a002f;
+    public static final int design_layout_snackbar=0x7f0a0030;
+    public static final int design_layout_snackbar_include=0x7f0a0031;
+    public static final int design_layout_tab_icon=0x7f0a0032;
+    public static final int design_layout_tab_text=0x7f0a0033;
+    public static final int design_menu_item_action_area=0x7f0a0034;
+    public static final int design_navigation_item=0x7f0a0035;
+    public static final int design_navigation_item_header=0x7f0a0036;
+    public static final int design_navigation_item_separator=0x7f0a0037;
+    public static final int design_navigation_item_subheader=0x7f0a0038;
+    public static final int design_navigation_menu=0x7f0a0039;
+    public static final int design_navigation_menu_item=0x7f0a003a;
+    public static final int design_text_input_password_icon=0x7f0a003b;
+    public static final int fragment_dashboard=0x7f0a003c;
+    public static final int fragment_home=0x7f0a003d;
+    public static final int fragment_profile=0x7f0a003e;
+    public static final int fui_activity_register_email=0x7f0a003f;
+    public static final int fui_activity_register_phone=0x7f0a0040;
+    public static final int fui_auth_method_picker_layout=0x7f0a0041;
+    public static final int fui_check_email_layout=0x7f0a0042;
+    public static final int fui_confirmation_code_layout=0x7f0a0043;
+    public static final int fui_dgts_country_row=0x7f0a0044;
+    public static final int fui_forgot_password_layout=0x7f0a0045;
+    public static final int fui_idp_button_facebook=0x7f0a0046;
+    public static final int fui_idp_button_google=0x7f0a0047;
+    public static final int fui_idp_button_twitter=0x7f0a0048;
+    public static final int fui_phone_layout=0x7f0a0049;
+    public static final int fui_phone_progress_dialog=0x7f0a004a;
+    public static final int fui_provider_button_email=0x7f0a004b;
+    public static final int fui_provider_button_phone=0x7f0a004c;
+    public static final int fui_register_email_layout=0x7f0a004d;
+    public static final int fui_welcome_back_idp_prompt_layout=0x7f0a004e;
+    public static final int fui_welcome_back_password_prompt_layout=0x7f0a004f;
+    public static final int notification_action=0x7f0a0050;
+    public static final int notification_action_tombstone=0x7f0a0051;
+    public static final int notification_media_action=0x7f0a0052;
+    public static final int notification_media_cancel_action=0x7f0a0053;
+    public static final int notification_template_big_media=0x7f0a0054;
+    public static final int notification_template_big_media_custom=0x7f0a0055;
+    public static final int notification_template_big_media_narrow=0x7f0a0056;
+    public static final int notification_template_big_media_narrow_custom=0x7f0a0057;
+    public static final int notification_template_custom_big=0x7f0a0058;
+    public static final int notification_template_icon_group=0x7f0a0059;
+    public static final int notification_template_lines_media=0x7f0a005a;
+    public static final int notification_template_media=0x7f0a005b;
+    public static final int notification_template_media_custom=0x7f0a005c;
+    public static final int notification_template_part_chronometer=0x7f0a005d;
+    public static final int notification_template_part_time=0x7f0a005e;
+    public static final int select_dialog_item_material=0x7f0a005f;
+    public static final int select_dialog_multichoice_material=0x7f0a0060;
+    public static final int select_dialog_singlechoice_material=0x7f0a0061;
+    public static final int support_simple_spinner_dropdown_item=0x7f0a0062;
+    public static final int tw__action_bar=0x7f0a0063;
+    public static final int tw__activity_composer=0x7f0a0064;
+    public static final int tw__activity_oauth=0x7f0a0065;
+    public static final int tw__composer_view=0x7f0a0066;
+    public static final int tw__gallery_activity=0x7f0a0067;
+    public static final int tw__media_badge=0x7f0a0068;
+    public static final int tw__player_activity=0x7f0a0069;
+    public static final int tw__tweet=0x7f0a006a;
+    public static final int tw__tweet_compact=0x7f0a006b;
+    public static final int tw__tweet_quote=0x7f0a006c;
+    public static final int tw__video_control=0x7f0a006d;
+    public static final int ucrop_activity_photobox=0x7f0a006e;
+    public static final int ucrop_aspect_ratio=0x7f0a006f;
+    public static final int ucrop_controls=0x7f0a0070;
+    public static final int ucrop_fragment_photobox=0x7f0a0071;
+    public static final int ucrop_layout_rotate_wheel=0x7f0a0072;
+    public static final int ucrop_layout_scale_wheel=0x7f0a0073;
+    public static final int ucrop_view=0x7f0a0074;
   }
   public static final class menu {
     public static final int navigation=0x7f0b0000;
+    public static final int ucrop_menu_activity=0x7f0b0001;
   }
   public static final class mipmap {
     public static final int ic_launche=0x7f0c0000;
@@ -5359,86 +5520,92 @@ public final class R {
     public static final int google_status_fmt=0x7f0e00bd;
     public static final int google_storage_bucket=0x7f0e00be;
     public static final int google_title_text=0x7f0e00bf;
-    public static final int hint_email=0x7f0e00c0;
-    public static final int hint_lastname=0x7f0e00c1;
-    public static final int hint_name=0x7f0e00c2;
-    public static final int hint_password=0x7f0e00c3;
-    public static final int hint_phone_number=0x7f0e00c4;
-    public static final int hint_user_id=0x7f0e00c5;
-    public static final int hint_verification_code=0x7f0e00c6;
-    public static final int id_fmt=0x7f0e00c7;
-    public static final int instant_validation=0x7f0e00c8;
-    public static final int label_anonymous_auth=0x7f0e00c9;
-    public static final int label_custom_auth=0x7f0e00ca;
-    public static final int label_emailpassword=0x7f0e00cb;
-    public static final int label_facebook_login=0x7f0e00cc;
-    public static final int label_firebase_ui=0x7f0e00cd;
-    public static final int label_google_sign_in=0x7f0e00ce;
-    public static final int label_passwordless=0x7f0e00cf;
-    public static final int label_phone_auth=0x7f0e00d0;
-    public static final int label_twitter_login=0x7f0e00d1;
-    public static final int loading=0x7f0e00d2;
-    public static final int password_toggle_content_description=0x7f0e00d3;
-    public static final int passwordless_status_fmt=0x7f0e00d4;
-    public static final int passwordless_title_text=0x7f0e00d5;
-    public static final int path_password_eye=0x7f0e00d6;
-    public static final int path_password_eye_mask_strike_through=0x7f0e00d7;
-    public static final int path_password_eye_mask_visible=0x7f0e00d8;
-    public static final int path_password_strike_through=0x7f0e00d9;
-    public static final int permission_rationale=0x7f0e00da;
-    public static final int phone_title_text=0x7f0e00db;
-    public static final int project_id=0x7f0e00dc;
-    public static final int prompt_email=0x7f0e00dd;
-    public static final int prompt_password=0x7f0e00de;
-    public static final int resend_phone_auth=0x7f0e00df;
-    public static final int search_menu_title=0x7f0e00e0;
-    public static final int send_link=0x7f0e00e1;
-    public static final int sign_in=0x7f0e00e2;
-    public static final int sign_out=0x7f0e00e3;
-    public static final int signed_in=0x7f0e00e4;
-    public static final int signed_out=0x7f0e00e5;
-    public static final int start_phone_auth=0x7f0e00e6;
-    public static final int status_bar_notification_info_overflow=0x7f0e00e7;
-    public static final int status_code_sent=0x7f0e00e8;
-    public static final int status_email_not_sent=0x7f0e00e9;
-    public static final int status_email_sent=0x7f0e00ea;
-    public static final int status_link_found=0x7f0e00eb;
-    public static final int status_sign_in_failed=0x7f0e00ec;
-    public static final int status_verification_failed=0x7f0e00ed;
-    public static final int status_verification_succeeded=0x7f0e00ee;
-    public static final int text_create_account=0x7f0e00ef;
-    public static final int title_activity_login=0x7f0e00f0;
-    public static final int title_activity_main=0x7f0e00f1;
-    public static final int title_dashboard=0x7f0e00f2;
-    public static final int title_home=0x7f0e00f3;
-    public static final int title_mypublications=0x7f0e00f4;
-    public static final int title_notifications=0x7f0e00f5;
-    public static final int title_profile=0x7f0e00f6;
-    public static final int token_null=0x7f0e00f7;
-    public static final int tw__composer_hint=0x7f0e00f8;
-    public static final int tw__like_tweet=0x7f0e00f9;
-    public static final int tw__liked_tweet=0x7f0e00fa;
-    public static final int tw__loading_tweet=0x7f0e00fb;
-    public static final int tw__login_btn_txt=0x7f0e00fc;
-    public static final int tw__max_tweet_chars=0x7f0e00fd;
-    public static final int tw__pause=0x7f0e00fe;
-    public static final int tw__play=0x7f0e00ff;
-    public static final int tw__post_tweet=0x7f0e0100;
-    public static final int tw__relative_date_format_long=0x7f0e0101;
-    public static final int tw__relative_date_format_short=0x7f0e0102;
-    public static final int tw__replay=0x7f0e0103;
-    public static final int tw__retweeted_by_format=0x7f0e0104;
-    public static final int tw__share_content_format=0x7f0e0105;
-    public static final int tw__share_subject_format=0x7f0e0106;
-    public static final int tw__share_tweet=0x7f0e0107;
-    public static final int tw__tweet_content_description=0x7f0e0108;
-    public static final int tw__tweet_media=0x7f0e0109;
-    public static final int twitter_consumer_key=0x7f0e010a;
-    public static final int twitter_consumer_secret=0x7f0e010b;
-    public static final int twitter_status_fmt=0x7f0e010c;
-    public static final int twitter_title_text=0x7f0e010d;
-    public static final int verify_email=0x7f0e010e;
-    public static final int verify_phone_auth=0x7f0e010f;
+    public static final int hello_blank_fragment=0x7f0e00c0;
+    public static final int hint_email=0x7f0e00c1;
+    public static final int hint_lastname=0x7f0e00c2;
+    public static final int hint_name=0x7f0e00c3;
+    public static final int hint_password=0x7f0e00c4;
+    public static final int hint_phone_number=0x7f0e00c5;
+    public static final int hint_user_id=0x7f0e00c6;
+    public static final int hint_verification_code=0x7f0e00c7;
+    public static final int id_fmt=0x7f0e00c8;
+    public static final int instant_validation=0x7f0e00c9;
+    public static final int label_anonymous_auth=0x7f0e00ca;
+    public static final int label_custom_auth=0x7f0e00cb;
+    public static final int label_emailpassword=0x7f0e00cc;
+    public static final int label_facebook_login=0x7f0e00cd;
+    public static final int label_firebase_ui=0x7f0e00ce;
+    public static final int label_google_sign_in=0x7f0e00cf;
+    public static final int label_passwordless=0x7f0e00d0;
+    public static final int label_phone_auth=0x7f0e00d1;
+    public static final int label_twitter_login=0x7f0e00d2;
+    public static final int loading=0x7f0e00d3;
+    public static final int password_toggle_content_description=0x7f0e00d4;
+    public static final int passwordless_status_fmt=0x7f0e00d5;
+    public static final int passwordless_title_text=0x7f0e00d6;
+    public static final int path_password_eye=0x7f0e00d7;
+    public static final int path_password_eye_mask_strike_through=0x7f0e00d8;
+    public static final int path_password_eye_mask_visible=0x7f0e00d9;
+    public static final int path_password_strike_through=0x7f0e00da;
+    public static final int permission_rationale=0x7f0e00db;
+    public static final int phone_title_text=0x7f0e00dc;
+    public static final int project_id=0x7f0e00dd;
+    public static final int prompt_email=0x7f0e00de;
+    public static final int prompt_password=0x7f0e00df;
+    public static final int resend_phone_auth=0x7f0e00e0;
+    public static final int search_menu_title=0x7f0e00e1;
+    public static final int send_link=0x7f0e00e2;
+    public static final int sign_in=0x7f0e00e3;
+    public static final int sign_out=0x7f0e00e4;
+    public static final int signed_in=0x7f0e00e5;
+    public static final int signed_out=0x7f0e00e6;
+    public static final int start_phone_auth=0x7f0e00e7;
+    public static final int status_bar_notification_info_overflow=0x7f0e00e8;
+    public static final int status_code_sent=0x7f0e00e9;
+    public static final int status_email_not_sent=0x7f0e00ea;
+    public static final int status_email_sent=0x7f0e00eb;
+    public static final int status_link_found=0x7f0e00ec;
+    public static final int status_sign_in_failed=0x7f0e00ed;
+    public static final int status_verification_failed=0x7f0e00ee;
+    public static final int status_verification_succeeded=0x7f0e00ef;
+    public static final int text_create_account=0x7f0e00f0;
+    public static final int title_activity_login=0x7f0e00f1;
+    public static final int title_activity_main=0x7f0e00f2;
+    public static final int title_dashboard=0x7f0e00f3;
+    public static final int title_home=0x7f0e00f4;
+    public static final int title_mypublications=0x7f0e00f5;
+    public static final int title_notifications=0x7f0e00f6;
+    public static final int title_profile=0x7f0e00f7;
+    public static final int token_null=0x7f0e00f8;
+    public static final int tw__composer_hint=0x7f0e00f9;
+    public static final int tw__like_tweet=0x7f0e00fa;
+    public static final int tw__liked_tweet=0x7f0e00fb;
+    public static final int tw__loading_tweet=0x7f0e00fc;
+    public static final int tw__login_btn_txt=0x7f0e00fd;
+    public static final int tw__max_tweet_chars=0x7f0e00fe;
+    public static final int tw__pause=0x7f0e00ff;
+    public static final int tw__play=0x7f0e0100;
+    public static final int tw__post_tweet=0x7f0e0101;
+    public static final int tw__relative_date_format_long=0x7f0e0102;
+    public static final int tw__relative_date_format_short=0x7f0e0103;
+    public static final int tw__replay=0x7f0e0104;
+    public static final int tw__retweeted_by_format=0x7f0e0105;
+    public static final int tw__share_content_format=0x7f0e0106;
+    public static final int tw__share_subject_format=0x7f0e0107;
+    public static final int tw__share_tweet=0x7f0e0108;
+    public static final int tw__tweet_content_description=0x7f0e0109;
+    public static final int tw__tweet_media=0x7f0e010a;
+    public static final int twitter_consumer_key=0x7f0e010b;
+    public static final int twitter_consumer_secret=0x7f0e010c;
+    public static final int twitter_status_fmt=0x7f0e010d;
+    public static final int twitter_title_text=0x7f0e010e;
+    public static final int ucrop_error_input_data_is_absent=0x7f0e010f;
+    public static final int ucrop_label_edit_photo=0x7f0e0110;
+    public static final int ucrop_label_original=0x7f0e0111;
+    public static final int ucrop_menu_crop=0x7f0e0112;
+    public static final int ucrop_mutate_exception_hint=0x7f0e0113;
+    public static final int verify_email=0x7f0e0114;
+    public static final int verify_phone_auth=0x7f0e0115;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0f0000;
@@ -5927,6 +6094,11 @@ public final class R {
     public static final int tw__TweetTimestamp_Compact=0x7f0f01e3;
     public static final int tw__TwitterLogo=0x7f0f01e4;
     public static final int tw__TwitterLogo_Compact=0x7f0f01e5;
+    public static final int ucrop_ImageViewWidgetIcon=0x7f0f01e6;
+    public static final int ucrop_TextViewCropAspectRatio=0x7f0f01e7;
+    public static final int ucrop_TextViewWidgetText=0x7f0f01e8;
+    public static final int ucrop_WrapperIconState=0x7f0f01e9;
+    public static final int ucrop_WrapperRotateButton=0x7f0f01ea;
   }
   public static final class styleable {
     /**
@@ -7574,9 +7746,9 @@ public final class R {
         0x7f030188, 0x7f030189, 0x7f03018a, 0x7f03018b, 
         0x7f03018c, 0x7f03018d, 0x7f03018e, 0x7f03018f, 
         0x7f030191, 0x7f0301a9, 0x7f0301aa, 0x7f0301ab, 
-        0x7f0301ac, 0x7f0301bb, 0x7f0301bd, 0x7f0301be, 
-        0x7f0301bf, 0x7f0301c0, 0x7f0301c1, 0x7f0301c2, 
-        0x7f0301c3, 0x7f0301c4, 0x7f0301c5, 0x7f0301c6
+        0x7f0301ac, 0x7f0301cb, 0x7f0301cd, 0x7f0301ce, 
+        0x7f0301cf, 0x7f0301d0, 0x7f0301d1, 0x7f0301d2, 
+        0x7f0301d3, 0x7f0301d4, 0x7f0301d5, 0x7f0301d6
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
@@ -12558,7 +12730,7 @@ public final class R {
     public static final int[] FloatingActionButton={
         0x7f030034, 0x7f030035, 0x7f03003e, 0x7f0300a5, 
         0x7f0300b2, 0x7f0300b3, 0x7f030144, 0x7f03014e, 
-        0x7f0301ba
+        0x7f0301ca
       };
     /**
      * <p>This symbol is the offset where the {@link co.edu.konradlorenz.autenticacion.R.attr#backgroundTint}
@@ -14514,7 +14686,7 @@ public final class R {
         0x7f03005a, 0x7f030078, 0x7f030092, 0x7f0300c5, 
         0x7f0300d1, 0x7f0300df, 0x7f030147, 0x7f030148, 
         0x7f030152, 0x7f030153, 0x7f03016c, 0x7f030171, 
-        0x7f0301bc
+        0x7f0301cc
       };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -17104,5 +17276,227 @@ public final class R {
      * @attr name co.edu.konradlorenz.autenticacion:tw__tweet_id
      */
     public static final int tw__TweetView_tw__tweet_id=5;
+    /**
+     * Attributes that can be used with a ucrop_AspectRatioTextView.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #ucrop_AspectRatioTextView_ucrop_artv_ratio_title co.edu.konradlorenz.autenticacion:ucrop_artv_ratio_title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ucrop_AspectRatioTextView_ucrop_artv_ratio_x co.edu.konradlorenz.autenticacion:ucrop_artv_ratio_x}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ucrop_AspectRatioTextView_ucrop_artv_ratio_y co.edu.konradlorenz.autenticacion:ucrop_artv_ratio_y}</code></td><td></td></tr>
+     * </table>
+     * @see #ucrop_AspectRatioTextView_ucrop_artv_ratio_title
+     * @see #ucrop_AspectRatioTextView_ucrop_artv_ratio_x
+     * @see #ucrop_AspectRatioTextView_ucrop_artv_ratio_y
+     */
+    public static final int[] ucrop_AspectRatioTextView={
+        0x7f0301ba, 0x7f0301bb, 0x7f0301bc
+      };
+    /**
+     * <p>This symbol is the offset where the {@link co.edu.konradlorenz.autenticacion.R.attr#ucrop_artv_ratio_title}
+     * attribute's value can be found in the {@link #ucrop_AspectRatioTextView} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name co.edu.konradlorenz.autenticacion:ucrop_artv_ratio_title
+     */
+    public static final int ucrop_AspectRatioTextView_ucrop_artv_ratio_title=0;
+    /**
+     * <p>This symbol is the offset where the {@link co.edu.konradlorenz.autenticacion.R.attr#ucrop_artv_ratio_x}
+     * attribute's value can be found in the {@link #ucrop_AspectRatioTextView} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name co.edu.konradlorenz.autenticacion:ucrop_artv_ratio_x
+     */
+    public static final int ucrop_AspectRatioTextView_ucrop_artv_ratio_x=1;
+    /**
+     * <p>This symbol is the offset where the {@link co.edu.konradlorenz.autenticacion.R.attr#ucrop_artv_ratio_y}
+     * attribute's value can be found in the {@link #ucrop_AspectRatioTextView} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name co.edu.konradlorenz.autenticacion:ucrop_artv_ratio_y
+     */
+    public static final int ucrop_AspectRatioTextView_ucrop_artv_ratio_y=2;
+    /**
+     * Attributes that can be used with a ucrop_UCropView.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #ucrop_UCropView_ucrop_aspect_ratio_x co.edu.konradlorenz.autenticacion:ucrop_aspect_ratio_x}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ucrop_UCropView_ucrop_aspect_ratio_y co.edu.konradlorenz.autenticacion:ucrop_aspect_ratio_y}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ucrop_UCropView_ucrop_circle_dimmed_layer co.edu.konradlorenz.autenticacion:ucrop_circle_dimmed_layer}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ucrop_UCropView_ucrop_dimmed_color co.edu.konradlorenz.autenticacion:ucrop_dimmed_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ucrop_UCropView_ucrop_frame_color co.edu.konradlorenz.autenticacion:ucrop_frame_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ucrop_UCropView_ucrop_frame_stroke_size co.edu.konradlorenz.autenticacion:ucrop_frame_stroke_size}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ucrop_UCropView_ucrop_grid_color co.edu.konradlorenz.autenticacion:ucrop_grid_color}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ucrop_UCropView_ucrop_grid_column_count co.edu.konradlorenz.autenticacion:ucrop_grid_column_count}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ucrop_UCropView_ucrop_grid_row_count co.edu.konradlorenz.autenticacion:ucrop_grid_row_count}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ucrop_UCropView_ucrop_grid_stroke_size co.edu.konradlorenz.autenticacion:ucrop_grid_stroke_size}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ucrop_UCropView_ucrop_show_frame co.edu.konradlorenz.autenticacion:ucrop_show_frame}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ucrop_UCropView_ucrop_show_grid co.edu.konradlorenz.autenticacion:ucrop_show_grid}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ucrop_UCropView_ucrop_show_oval_crop_frame co.edu.konradlorenz.autenticacion:ucrop_show_oval_crop_frame}</code></td><td></td></tr>
+     * </table>
+     * @see #ucrop_UCropView_ucrop_aspect_ratio_x
+     * @see #ucrop_UCropView_ucrop_aspect_ratio_y
+     * @see #ucrop_UCropView_ucrop_circle_dimmed_layer
+     * @see #ucrop_UCropView_ucrop_dimmed_color
+     * @see #ucrop_UCropView_ucrop_frame_color
+     * @see #ucrop_UCropView_ucrop_frame_stroke_size
+     * @see #ucrop_UCropView_ucrop_grid_color
+     * @see #ucrop_UCropView_ucrop_grid_column_count
+     * @see #ucrop_UCropView_ucrop_grid_row_count
+     * @see #ucrop_UCropView_ucrop_grid_stroke_size
+     * @see #ucrop_UCropView_ucrop_show_frame
+     * @see #ucrop_UCropView_ucrop_show_grid
+     * @see #ucrop_UCropView_ucrop_show_oval_crop_frame
+     */
+    public static final int[] ucrop_UCropView={
+        0x7f0301bd, 0x7f0301be, 0x7f0301bf, 0x7f0301c0, 
+        0x7f0301c1, 0x7f0301c2, 0x7f0301c3, 0x7f0301c4, 
+        0x7f0301c5, 0x7f0301c6, 0x7f0301c7, 0x7f0301c8, 
+        0x7f0301c9
+      };
+    /**
+     * <p>This symbol is the offset where the {@link co.edu.konradlorenz.autenticacion.R.attr#ucrop_aspect_ratio_x}
+     * attribute's value can be found in the {@link #ucrop_UCropView} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name co.edu.konradlorenz.autenticacion:ucrop_aspect_ratio_x
+     */
+    public static final int ucrop_UCropView_ucrop_aspect_ratio_x=0;
+    /**
+     * <p>This symbol is the offset where the {@link co.edu.konradlorenz.autenticacion.R.attr#ucrop_aspect_ratio_y}
+     * attribute's value can be found in the {@link #ucrop_UCropView} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name co.edu.konradlorenz.autenticacion:ucrop_aspect_ratio_y
+     */
+    public static final int ucrop_UCropView_ucrop_aspect_ratio_y=1;
+    /**
+     * <p>This symbol is the offset where the {@link co.edu.konradlorenz.autenticacion.R.attr#ucrop_circle_dimmed_layer}
+     * attribute's value can be found in the {@link #ucrop_UCropView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name co.edu.konradlorenz.autenticacion:ucrop_circle_dimmed_layer
+     */
+    public static final int ucrop_UCropView_ucrop_circle_dimmed_layer=2;
+    /**
+     * <p>This symbol is the offset where the {@link co.edu.konradlorenz.autenticacion.R.attr#ucrop_dimmed_color}
+     * attribute's value can be found in the {@link #ucrop_UCropView} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name co.edu.konradlorenz.autenticacion:ucrop_dimmed_color
+     */
+    public static final int ucrop_UCropView_ucrop_dimmed_color=3;
+    /**
+     * <p>This symbol is the offset where the {@link co.edu.konradlorenz.autenticacion.R.attr#ucrop_frame_color}
+     * attribute's value can be found in the {@link #ucrop_UCropView} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name co.edu.konradlorenz.autenticacion:ucrop_frame_color
+     */
+    public static final int ucrop_UCropView_ucrop_frame_color=4;
+    /**
+     * <p>This symbol is the offset where the {@link co.edu.konradlorenz.autenticacion.R.attr#ucrop_frame_stroke_size}
+     * attribute's value can be found in the {@link #ucrop_UCropView} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name co.edu.konradlorenz.autenticacion:ucrop_frame_stroke_size
+     */
+    public static final int ucrop_UCropView_ucrop_frame_stroke_size=5;
+    /**
+     * <p>This symbol is the offset where the {@link co.edu.konradlorenz.autenticacion.R.attr#ucrop_grid_color}
+     * attribute's value can be found in the {@link #ucrop_UCropView} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name co.edu.konradlorenz.autenticacion:ucrop_grid_color
+     */
+    public static final int ucrop_UCropView_ucrop_grid_color=6;
+    /**
+     * <p>This symbol is the offset where the {@link co.edu.konradlorenz.autenticacion.R.attr#ucrop_grid_column_count}
+     * attribute's value can be found in the {@link #ucrop_UCropView} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name co.edu.konradlorenz.autenticacion:ucrop_grid_column_count
+     */
+    public static final int ucrop_UCropView_ucrop_grid_column_count=7;
+    /**
+     * <p>This symbol is the offset where the {@link co.edu.konradlorenz.autenticacion.R.attr#ucrop_grid_row_count}
+     * attribute's value can be found in the {@link #ucrop_UCropView} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name co.edu.konradlorenz.autenticacion:ucrop_grid_row_count
+     */
+    public static final int ucrop_UCropView_ucrop_grid_row_count=8;
+    /**
+     * <p>This symbol is the offset where the {@link co.edu.konradlorenz.autenticacion.R.attr#ucrop_grid_stroke_size}
+     * attribute's value can be found in the {@link #ucrop_UCropView} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name co.edu.konradlorenz.autenticacion:ucrop_grid_stroke_size
+     */
+    public static final int ucrop_UCropView_ucrop_grid_stroke_size=9;
+    /**
+     * <p>This symbol is the offset where the {@link co.edu.konradlorenz.autenticacion.R.attr#ucrop_show_frame}
+     * attribute's value can be found in the {@link #ucrop_UCropView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name co.edu.konradlorenz.autenticacion:ucrop_show_frame
+     */
+    public static final int ucrop_UCropView_ucrop_show_frame=10;
+    /**
+     * <p>This symbol is the offset where the {@link co.edu.konradlorenz.autenticacion.R.attr#ucrop_show_grid}
+     * attribute's value can be found in the {@link #ucrop_UCropView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name co.edu.konradlorenz.autenticacion:ucrop_show_grid
+     */
+    public static final int ucrop_UCropView_ucrop_show_grid=11;
+    /**
+     * <p>This symbol is the offset where the {@link co.edu.konradlorenz.autenticacion.R.attr#ucrop_show_oval_crop_frame}
+     * attribute's value can be found in the {@link #ucrop_UCropView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name co.edu.konradlorenz.autenticacion:ucrop_show_oval_crop_frame
+     */
+    public static final int ucrop_UCropView_ucrop_show_oval_crop_frame=12;
   }
 }

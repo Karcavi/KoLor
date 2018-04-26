@@ -113,4 +113,7 @@
     <string name="dashboard_title">My publications</string>
     <string name="button_create_publication">Create New</string>
     <string name="create_pub">Create Publication</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

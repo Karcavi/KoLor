@@ -4,6 +4,23 @@
             "outputFile": "C:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sk\\values-sk.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.2-native.aar\\4dcd7138410c73f42939c393154e2322\\res\\values-sk\\values-sk.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,182",
+                        "endColumns": "69,56,50",
+                        "endOffsets": "120,177,228"
+                    },
+                    "to": {
+                        "startLines": "157,158,159",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "14874,14944,15001",
+                        "endColumns": "69,56,50",
+                        "endOffsets": "14939,14996,15047"
+                    }
+                },
+                {
                     "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\9060e1ee52755383d857b2fb3afc6897\\res\\values-sk\\values-sk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",

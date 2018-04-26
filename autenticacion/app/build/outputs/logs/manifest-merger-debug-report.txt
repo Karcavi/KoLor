@@ -1,13 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:2:1-88:12
-INJECTED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:2:1-88:12
-INJECTED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:2:1-88:12
-INJECTED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:2:1-88:12
+ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:2:1-72:12
 MERGED from [com.android.support:multidex:1.0.3] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\9a87e8bbf68c00eac35d1933b44353a1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.firebaseui:firebase-ui-auth:3.3.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-3.3.0.aar\54b68891b598fa38639faff15211ea19\AndroidManifest.xml:2:1-93:12
 MERGED from [com.android.support:design:27.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\d1a4edf6994ce7b1b56e0713f462cac8\AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.android:facebook-login:4.31.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\facebook-login-4.31.0.aar\ef97a14f4dbfc7713322b90f0b7e2dc6\AndroidManifest.xml:21:1-31:12
+MERGED from [com.github.yalantis:ucrop:2.2.2-native] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\ucrop-2.2.2-native.aar\4dcd7138410c73f42939c393154e2322\AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.android:facebook-common:4.31.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\52c739df0da3389c7d49b9a2c9886337\AndroidManifest.xml:21:1-36:12
 MERGED from [com.android.support:customtabs:27.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\customtabs-27.1.0.aar\e1252f3ac434b2ca5dadd85f5c2de8fa\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\9060e1ee52755383d857b2fb3afc6897\AndroidManifest.xml:17:1-22:12
@@ -69,22 +70,22 @@ MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.1]
 MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.1] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-12.0.1.aar\efd7bb47c5a627e9e74e40fb77dbfe2a\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.1] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-12.0.1.aar\89f17f9366597bab6cedc48f580dfc9d\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-iid-license:12.0.1] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-12.0.1.aar\e8ed36bfb085096a47f8eab557823f22\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:2:1-88:12
-INJECTED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:2:1-88:12
-INJECTED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:2:1-88:12
+INJECTED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:2:1-72:12
 	package
 		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:4:5-48
 		INJECTED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:2:1-88:12
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:2:1-72:12
 		INJECTED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:2:1-88:12
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:2:1-72:12
 		INJECTED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:2:11-69
@@ -121,7 +122,7 @@ ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManife
 	android:name
 		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:11:22-69
 application
-ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:13:5-86:19
+ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:13:5-70:19
 MERGED from [com.firebaseui:firebase-ui-auth:3.3.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-3.3.0.aar\54b68891b598fa38639faff15211ea19\AndroidManifest.xml:15:5-91:19
 MERGED from [com.firebaseui:firebase-ui-auth:3.3.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-3.3.0.aar\54b68891b598fa38639faff15211ea19\AndroidManifest.xml:15:5-91:19
 MERGED from [com.facebook.android:facebook-login:4.31.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\facebook-login-4.31.0.aar\ef97a14f4dbfc7713322b90f0b7e2dc6\AndroidManifest.xml:28:5-29:19
@@ -224,124 +225,94 @@ ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManife
 		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:28:13-57
 	android:name
 		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:27:13-50
-activity#co.edu.konradlorenz.autenticacion.PasswordlessActivity
-ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:29:9-44:20
-	android:label
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:31:13-55
-	android:launchMode
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:32:13-43
-	android:name
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:30:13-49
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:auth.example.com+data:pathPrefix:/emailSignInLink+data:scheme:https
-ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:33:13-43:29
-action#android.intent.action.VIEW
-ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:34:17-69
-	android:name
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:34:25-66
-data
-ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:36:17-39:46
-	android:host
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:37:21-52
-	android:scheme
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:39:21-43
-	android:pathPrefix
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:38:21-58
-category#android.intent.category.BROWSABLE
-ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:41:17-78
-	android:name
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:41:27-75
-category#android.intent.category.DEFAULT
-ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:42:17-76
-	android:name
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:42:27-73
 activity#co.edu.konradlorenz.autenticacion.PhoneAuthActivity
-ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:45:9-48:55
+ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:29:9-32:55
 	android:label
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:47:13-53
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:31:13-53
 	android:windowSoftInputMode
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:48:13-52
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:32:13-52
 	android:name
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:46:13-46
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:30:13-46
 activity#co.edu.konradlorenz.autenticacion.AnonymousAuthActivity
-ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:49:9-51:60
+ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:33:9-35:60
 	android:label
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:51:13-57
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:35:13-57
 	android:name
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:50:13-50
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:34:13-50
 activity#co.edu.konradlorenz.autenticacion.TwitterLoginActivity
-ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:52:9-54:59
+ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:36:9-38:59
 	android:label
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:54:13-56
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:38:13-56
 	android:name
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:53:13-49
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:37:13-49
 activity#co.edu.konradlorenz.autenticacion.FirebaseUIActivity
-ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:55:9-57:57
+ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:39:9-41:57
 	android:label
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:57:13-54
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:41:13-54
 	android:name
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:56:13-47
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:40:13-47
 meta-data#com.facebook.sdk.ApplicationId
-ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:60:9-63:45
+ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:44:9-47:45
 MERGED from [com.firebaseui:firebase-ui-auth:3.3.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-3.3.0.aar\54b68891b598fa38639faff15211ea19\AndroidManifest.xml:19:9-21:63
 MERGED from [com.firebaseui:firebase-ui-auth:3.3.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-3.3.0.aar\54b68891b598fa38639faff15211ea19\AndroidManifest.xml:19:9-21:63
 	tools:replace
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:63:13-42
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:47:13-42
 	android:value
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:62:13-52
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:46:13-52
 		REJECTED from [com.firebaseui:firebase-ui-auth:3.3.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-3.3.0.aar\54b68891b598fa38639faff15211ea19\AndroidManifest.xml:21:13-60
 	android:name
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:61:13-58
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:45:13-58
 activity#com.facebook.FacebookActivity
-ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:65:9-70:45
+ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:49:9-54:45
 MERGED from [com.firebaseui:firebase-ui-auth:3.3.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-3.3.0.aar\54b68891b598fa38639faff15211ea19\AndroidManifest.xml:62:9-66:48
 MERGED from [com.firebaseui:firebase-ui-auth:3.3.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-3.3.0.aar\54b68891b598fa38639faff15211ea19\AndroidManifest.xml:62:9-66:48
 MERGED from [com.facebook.android:facebook-common:4.31.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\52c739df0da3389c7d49b9a2c9886337\AndroidManifest.xml:29:9-32:66
 MERGED from [com.facebook.android:facebook-common:4.31.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\52c739df0da3389c7d49b9a2c9886337\AndroidManifest.xml:29:9-32:66
 	android:label
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:68:13-45
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:52:13-45
 	tools:ignore
 		ADDED from [com.firebaseui:firebase-ui-auth:3.3.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-3.3.0.aar\54b68891b598fa38639faff15211ea19\AndroidManifest.xml:66:13-45
 	android:configChanges
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:67:13-96
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:51:13-96
 	android:theme
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:69:13-72
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:53:13-72
 		REJECTED from [com.facebook.android:facebook-common:4.31.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\52c739df0da3389c7d49b9a2c9886337\AndroidManifest.xml:32:13-63
 	tools:replace
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:70:13-42
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:54:13-42
 	android:name
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:66:13-57
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:50:13-57
 activity#co.edu.konradlorenz.autenticacion.LoginActivity
-ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:71:9-79:20
+ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:55:9-63:20
 	android:label
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:73:13-45
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:57:13-45
 	android:name
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:72:13-42
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:56:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:74:13-78:29
+ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:58:13-62:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:75:17-69
+ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:59:17-69
 	android:name
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:75:25-66
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:59:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:77:17-77
+ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:61:17-77
 	android:name
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:77:27-74
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:61:27-74
 activity#co.edu.konradlorenz.autenticacion.MainActivity
-ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:80:9-83:47
+ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:64:9-67:47
 	android:label
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:82:13-56
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:66:13-56
 	android:theme
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:83:13-44
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:67:13-44
 	android:name
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:81:13-41
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:65:13-41
 activity#co.edu.konradlorenz.autenticacion.CreateAccountActivity
-ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:84:9-59
+ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:68:9-59
 	android:name
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:84:19-56
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:68:19-56
 activity#co.edu.konradlorenz.autenticacion.CreatePubActivity
-ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:85:9-64
+ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:69:9-64
 	android:name
-		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:85:19-52
+		ADDED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml:69:19-52
 uses-sdk
 INJECTED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\IAN\Documents\KoLor\autenticacion\app\src\main\AndroidManifest.xml
@@ -354,6 +325,8 @@ MERGED from [com.android.support:design:27.1.0] C:\Users\IAN\.gradle\caches\tran
 MERGED from [com.android.support:design:27.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\d1a4edf6994ce7b1b56e0713f462cac8\AndroidManifest.xml:20:5-44
 MERGED from [com.facebook.android:facebook-login:4.31.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\facebook-login-4.31.0.aar\ef97a14f4dbfc7713322b90f0b7e2dc6\AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-login:4.31.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\facebook-login-4.31.0.aar\ef97a14f4dbfc7713322b90f0b7e2dc6\AndroidManifest.xml:24:5-26:41
+MERGED from [com.github.yalantis:ucrop:2.2.2-native] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\ucrop-2.2.2-native.aar\4dcd7138410c73f42939c393154e2322\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.2-native] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\ucrop-2.2.2-native.aar\4dcd7138410c73f42939c393154e2322\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.android:facebook-common:4.31.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\52c739df0da3389c7d49b9a2c9886337\AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-common:4.31.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\facebook-common-4.31.0.aar\52c739df0da3389c7d49b9a2c9886337\AndroidManifest.xml:24:5-26:41
 MERGED from [com.android.support:customtabs:27.1.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\customtabs-27.1.0.aar\e1252f3ac434b2ca5dadd85f5c2de8fa\AndroidManifest.xml:20:5-44
@@ -602,6 +575,22 @@ ADDED from [com.firebaseui:firebase-ui-auth:3.3.0] C:\Users\IAN\.gradle\caches\t
 		ADDED from [com.firebaseui:firebase-ui-auth:3.3.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-3.3.0.aar\54b68891b598fa38639faff15211ea19\AndroidManifest.xml:73:13-58
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/facebook_login_protocol_scheme
 ADDED from [com.firebaseui:firebase-ui-auth:3.3.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-3.3.0.aar\54b68891b598fa38639faff15211ea19\AndroidManifest.xml:76:13-83:29
+action#android.intent.action.VIEW
+ADDED from [com.firebaseui:firebase-ui-auth:3.3.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-3.3.0.aar\54b68891b598fa38639faff15211ea19\AndroidManifest.xml:77:17-69
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-3.3.0.aar\54b68891b598fa38639faff15211ea19\AndroidManifest.xml:77:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.firebaseui:firebase-ui-auth:3.3.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-3.3.0.aar\54b68891b598fa38639faff15211ea19\AndroidManifest.xml:79:17-76
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-3.3.0.aar\54b68891b598fa38639faff15211ea19\AndroidManifest.xml:79:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.firebaseui:firebase-ui-auth:3.3.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-3.3.0.aar\54b68891b598fa38639faff15211ea19\AndroidManifest.xml:80:17-78
+	android:name
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-3.3.0.aar\54b68891b598fa38639faff15211ea19\AndroidManifest.xml:80:27-75
+data
+ADDED from [com.firebaseui:firebase-ui-auth:3.3.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-3.3.0.aar\54b68891b598fa38639faff15211ea19\AndroidManifest.xml:82:17-81
+	android:scheme
+		ADDED from [com.firebaseui:firebase-ui-auth:3.3.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-3.3.0.aar\54b68891b598fa38639faff15211ea19\AndroidManifest.xml:82:23-78
 provider#com.firebase.ui.auth.data.client.AuthUiInitProvider
 ADDED from [com.firebaseui:firebase-ui-auth:3.3.0] C:\Users\IAN\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-3.3.0.aar\54b68891b598fa38639faff15211ea19\AndroidManifest.xml:86:9-90:38
 	android:authorities

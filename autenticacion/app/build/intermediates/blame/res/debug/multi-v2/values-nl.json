@@ -157,6 +157,23 @@
                         "endColumns": "66",
                         "endOffsets": "13842"
                     }
+                },
+                {
+                    "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.2-native.aar\\4dcd7138410c73f42939c393154e2322\\res\\values-nl\\values-nl.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,120,179",
+                        "endColumns": "64,58,54",
+                        "endOffsets": "115,174,229"
+                    },
+                    "to": {
+                        "startLines": "159,160,161",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "14680,14745,14804",
+                        "endColumns": "64,58,54",
+                        "endOffsets": "14740,14799,14854"
+                    }
                 }
             ]
         }

@@ -11,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
 
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -19,6 +20,9 @@ import com.google.firebase.auth.FirebaseAuth;
  * A simple {@link Fragment} subclass.
  */
 public class DashboardFragment extends Fragment {
+
+    private EditText Title;
+    private EditText Desrcription;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -35,6 +39,9 @@ public class DashboardFragment extends Fragment {
                 startActivity(intent);
             }
         });
+
+        Title = (EditText) view.findViewById(R.id.etxt_name);
+        Desrcription = (EditText) view.findViewById(R.id.etxt_lastname);
         return view;
     }
 

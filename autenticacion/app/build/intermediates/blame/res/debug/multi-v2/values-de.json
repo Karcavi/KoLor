@@ -108,6 +108,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\ucrop-2.2.2-native.aar\\4dcd7138410c73f42939c393154e2322\\res\\values-de\\values-de.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,121,179",
+                        "endColumns": "65,57,55",
+                        "endOffsets": "116,174,230"
+                    },
+                    "to": {
+                        "startLines": "159,160,161",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "14910,14976,15034",
+                        "endColumns": "65,57,55",
+                        "endOffsets": "14971,15029,15085"
+                    }
+                },
+                {
                     "source": "C:\\Users\\IAN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\26068b0530114775ed5d7a1811c5509b\\res\\values-de\\values-de.xml",
                     "from": {
                         "startLines": "2",

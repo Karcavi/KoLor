@@ -32,15 +32,11 @@ public class CreatePubActivity extends AppCompatActivity {
     private Button CreatePButton;
     static CreateAccountActivity instance;
     private FirebaseAuth mAuth;
-    private ProgressDialog mProgress;
+
     private Button CancelPButton;
     private FirebaseAuth.AuthStateListener mAuthListener;
 
-    @Override
-    protected void onStart() {
-        super.onStart();
-        mAuth.addAuthStateListener(mAuthListener);
-    }
+
 
 
     @Override
@@ -61,23 +57,13 @@ public class CreatePubActivity extends AppCompatActivity {
             }
         });
 
-        mProgress = new ProgressDialog(this);
         CreatePButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 createPub();
             }
         });
-        mAuthListener = new FirebaseAuth.AuthStateListener() {
-            @Override
-            public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
-                if (firebaseAuth.getCurrentUser() != null) {
-                    Intent intent = new Intent(CreatePubActivity.this, LoginActivity.class);
-                    startActivity(intent);
-                    finish();
-                }
-            }
-        };
+
 
     }
 
@@ -86,15 +72,17 @@ public class CreatePubActivity extends AppCompatActivity {
         final String description = Description.getText().toString().trim();
 
         if (!TextUtils.isEmpty(title)  && !TextUtils.isEmpty(description) ) {
-            mProgress.setMessage("creating, please wait...");
-            mProgress.show();
 
-                                DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference().child("publications");
-                                DatabaseReference currentUserDB = mDatabase.child(mAuth.getCurrentUser().getUid());
-                                currentUserDB.child("title").setValue(title);
-                                currentUserDB.child("description").setValue(description);
+
+            DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference().child("publications");
+            DatabaseReference currentUserDB = mDatabase.child(mAuth.getCurrentUser().getUid());
+            currentUserDB.child("title").setValue(title);
+            currentUserDB.child("description").setValue(description);
+            Toast.makeText(CreatePubActivity.this, "created publication success", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(CreatePubActivity.this, MainActivity.class);
+            startActivity(intent);
                             } else
-                                Toast.makeText(CreatePubActivity.this, "failed to registering user", Toast.LENGTH_SHORT).show();
+                                       Toast.makeText(CreatePubActivity.this, "failed to created publication", Toast.LENGTH_SHORT).show();
 
                         }
 
