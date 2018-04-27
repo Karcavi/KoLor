@@ -205,7 +205,7 @@ static LoginActivity instance;
 
         String email = mEmailField.getText().toString();
         if (TextUtils.isEmpty(email)) {
-            mEmailField.setError("Required.");
+            mEmailField.setError("@Strin");
             valid = false;
         } else {
             mEmailField.setError(null);

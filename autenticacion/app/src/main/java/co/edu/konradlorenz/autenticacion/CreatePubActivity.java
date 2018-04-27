@@ -24,6 +24,8 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.util.Random;
+
 public class CreatePubActivity extends AppCompatActivity {
 
 
@@ -73,11 +75,12 @@ public class CreatePubActivity extends AppCompatActivity {
 
         if (!TextUtils.isEmpty(title)  && !TextUtils.isEmpty(description) ) {
 
-
+            int o = GenerateId();
             DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference().child("publications");
-            DatabaseReference currentUserDB = mDatabase.child(mAuth.getCurrentUser().getUid());
+            DatabaseReference currentUserDB = mDatabase.child(String.valueOf(o));
             currentUserDB.child("title").setValue(title);
             currentUserDB.child("description").setValue(description);
+            currentUserDB.child("user").setValue(mAuth.getCurrentUser().getUid());
             Toast.makeText(CreatePubActivity.this, "created publication success", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(CreatePubActivity.this, MainActivity.class);
             startActivity(intent);
@@ -86,6 +89,15 @@ public class CreatePubActivity extends AppCompatActivity {
 
                         }
 
+
+                        public int GenerateId(){
+                            int randomId = 0;
+                            Random rand = new Random();
+                            for (int j=0; j<10; j++){
+                                randomId = rand.nextInt();
+                            }
+                                return randomId;
+                        }
 
 
 
