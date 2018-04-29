@@ -19,33 +19,46 @@
         <TextView
             android:id="@+id/title_pub"
             style="@style/ThemeOverlay.MyTextDetail"
-            android:text="@string/create_account"
+            android:text="@string/create_pub"
             android:layout_gravity="center_horizontal"
             android:layout_margin="16dp"
             android:textColor="@color/colorP"
             android:textSize="24sp"
             android:textStyle="bold"/>
 
-        <EditText
-            android:id="@+id/etxt_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/cumtom_text_box"
-            android:hint="Title of publication"
-            android:inputType="textPersonName" />
-
-        <EditText
-            android:id="@+id/etxt_lastname"
+        <TextView
+            android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:text="@string/categories" />
+
+        <Spinner
+            android:id="@+id/categories_spinner"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/txt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
             android:background="@drawable/cumtom_text_box"
-            android:padding="30dp"
+            android:hint="@string/create_title_pub"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/txt_description"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/cumtom_text_box"
             android:lines="20"
             android:scrollbars="vertical"
             android:scrollHorizontally="false"
-            android:hint="Description"
+            android:hint="@string/create_description_pub"
             android:inputType="textImeMultiLine" />
 
 
@@ -54,7 +67,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_horizontal"
-            android:paddingTop="70dp"
+            android:layout_margin="20dp"
             android:paddingLeft="30dp"
             android:paddingRight="30dp"
             >
