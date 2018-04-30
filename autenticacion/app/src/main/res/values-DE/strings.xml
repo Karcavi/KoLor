@@ -122,6 +122,8 @@
         <item>Ich suche</item>
     </string-array>
 
+    <string name="categories">Wähle Kategorie</string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hallo! Leeres Fragment</string>
