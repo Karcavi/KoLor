@@ -4,15 +4,16 @@
     android:layout_width="match_parent"
     android:background="@color/almost_white"
     android:layout_height="match_parent"
+    android:layout_margin="16dp"
     tools:context=".HomeFragment">
 
     <!-- TODO: Update blank fragment layout -->
 
     <ListView
-        android:id="@+id/listView"
+        android:id="@+id/listViewH"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_height="wrap_content">
     </ListView>
+
 
 </FrameLayout>
