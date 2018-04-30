@@ -115,6 +115,13 @@
     <string name="dashboard_title">Mis publicaciones</string>
     <string name="button_create_publication">Crear Nuevo</string>
     <string name="create_pub">Crear Publicación</string>
+    <string name="required">¡Pilas!</string>
+
+    <string-array name="categories_array">
+        <item>Ofrezco</item>
+        <item>Busco</item>
+    </string-array>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">¡Hola! Fragmento en blanco</string>

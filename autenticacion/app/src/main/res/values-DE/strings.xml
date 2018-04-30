@@ -31,7 +31,7 @@
     <string name="hint_user_id">User ID</string>
     <string name="get_custom_token">Get Token</string>
     <string name="sign_in">Anmelden</string>
-    <string name="create_account">Ein Konto erstellen</string>
+    <string name="create_account">Ein Veröffentlichung erstellen</string>
     <string name="send_link">Link senden</string>
     <string name="sign_out">Abmelden</string>
     <string name="action_register_now">Hier registrieren</string>
@@ -115,6 +115,13 @@
     <string name="dashboard_title">Meine Veröffentlichungen</string>
     <string name="button_create_publication">Neue Veröffentlichung</string>
     <string name="create_pub">Veröffentlichung erstellen</string>
+    <string name="required">Benötigt!</string>
+
+    <string-array name="categories_array">
+        <item>Ich biete</item>
+        <item>Ich suche</item>
+    </string-array>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hallo! Leeres Fragment</string>

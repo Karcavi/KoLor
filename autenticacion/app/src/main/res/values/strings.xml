@@ -118,11 +118,13 @@
     <string name="categories">Select category</string>
 
     <string-array name="categories_array">
-        <item>Ofrezco</item>
-        <item>Necesito</item>
+        <item>I'm offering</item>
+        <item>I'm looking for</item>
     </string-array>
     <string name="create_title_pub">Title of publication</string>
     <string name="create_description_pub">Description</string>
+    <string name="required">Required!</string>
+
 
 
 

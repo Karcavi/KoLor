@@ -205,7 +205,7 @@ static LoginActivity instance;
 
         String email = mEmailField.getText().toString();
         if (TextUtils.isEmpty(email)) {
-            mEmailField.setError("Required.");
+            mEmailField.setError(getText(R.string.required));
             valid = false;
         } else {
             mEmailField.setError(null);
@@ -213,7 +213,7 @@ static LoginActivity instance;
 
         String password = mPasswordField.getText().toString();
         if (TextUtils.isEmpty(password)) {
-            mPasswordField.setError("Required.");
+            mPasswordField.setError(getText(R.string.required));
             valid = false;
         } else {
             mPasswordField.setError(null);

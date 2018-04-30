@@ -1,4 +1,0 @@
-#Thu Apr 26 13:28:48 COT 2018
-base.0=C\:\\Users\\IAN\\Documents\\KoLor\\autenticacion\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-path.0=classes.dex
-renamed.0=classes.dex
