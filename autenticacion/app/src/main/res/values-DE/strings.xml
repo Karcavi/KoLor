@@ -127,4 +127,6 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hallo! Leeres Fragment</string>
+    <string name="create_title_pub">Titel</string>
+    <string name="create_description_pub">Beschreibung</string>
 </resources>
