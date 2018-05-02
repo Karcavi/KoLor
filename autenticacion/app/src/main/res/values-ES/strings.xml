@@ -128,5 +128,7 @@
     <string name="hello_blank_fragment">¡Hola! Fragmento en blanco</string>
     <string name="create_title_pub">Titulo de la publicación</string>
     <string name="create_description_pub">Descripción</string>
+    <string name="btn_createPub">Crear</string>
+    <string name="btn_cancelPub">Cancelar</string>
 </resources>
 

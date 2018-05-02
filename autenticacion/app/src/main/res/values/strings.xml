@@ -123,6 +123,8 @@
     </string-array>
     <string name="create_title_pub">Title of publication</string>
     <string name="create_description_pub">Description</string>
+    <string name="btn_createPub">Create</string>
+    <string name="btn_cancelPub">Cancel</string>
     <string name="required">Required!</string>
 
     <!-- new strings -->
