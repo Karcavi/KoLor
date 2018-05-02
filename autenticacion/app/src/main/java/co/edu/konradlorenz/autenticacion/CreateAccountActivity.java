@@ -42,7 +42,7 @@ public class CreateAccountActivity extends AppCompatActivity {
     private EditText Password;
     private EditText numberPhone;
     private Button mRegisterButton;
-    static CreateAccountActivity instance;
+    static  CreateAccountActivity instance;
     private FirebaseAuth mAuth;
     private ProgressDialog mProgress;
     private TextView TextLogin;
