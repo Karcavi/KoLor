@@ -86,12 +86,12 @@
         android:text="@string/btn_register" />
 
     <TextView
-        android:id="@+id/txt_login"
+        android:id="@+id/hereToLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/btn_register"
         android:layout_marginTop="16dp"
         android:gravity="center_horizontal"
-        android:text="Or click here to login" />
+        android:text="@string/hereToLogin" />
     </LinearLayout>
 </ScrollView>

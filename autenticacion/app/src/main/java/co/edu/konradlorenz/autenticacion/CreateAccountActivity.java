@@ -68,7 +68,7 @@ public class CreateAccountActivity extends AppCompatActivity {
         Password = (EditText) findViewById(R.id.etxt_password);
         numberPhone = (EditText) findViewById(R.id.etxt_numphone);
         mRegisterButton = (Button) findViewById(R.id.btn_register);
-        TextLogin = (TextView) findViewById(R.id.txt_login);
+        TextLogin = (TextView) findViewById(R.id.hereToLogin);
         TextLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

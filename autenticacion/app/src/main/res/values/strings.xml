@@ -142,4 +142,7 @@
     <string name="etxt_password">Type in a password you will remember</string>
     <string name="etxt_numphone">Type your phone number</string>
 
+    <string name="hereToLogin">Or click here to login</string>
+
+
 </resources>
