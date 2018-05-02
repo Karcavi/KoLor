@@ -132,5 +132,14 @@
 
     <string name="save_changes">Save</string>
 
+    <string name="btn_register">Register</string>
+
+
+    <!-- Strings used in CREATE ACCOUNT ACTIVITY -->
+    <string name="etxt_name">Type in your name</string>
+    <string name="etxt_lastname">Type in your last name</string>
+    <string name="etxt_email">Type in your email</string>
+    <string name="etxt_password">Type in a password you will remember</string>
+    <string name="etxt_numphone">Type your phone number</string>
 
 </resources>

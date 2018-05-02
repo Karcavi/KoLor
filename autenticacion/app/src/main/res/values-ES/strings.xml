@@ -135,6 +135,16 @@
 
     <string name="save_changes">Guardar</string>
 
+    <string name="btn_register">Create account</string>
+
+
+    <!-- Strings used in CREATE ACCOUNT ACTIVITY -->
+    <string name="etxt_name">Ingresa tu nombre</string>
+    <string name="etxt_lastname">Ingresa tu apellido</string>
+    <string name="etxt_email">Ingresa tu dirección de correo electrónico</string>
+    <string name="etxt_password">Ingresa una contraseña que puedas recordar fácilmente</string>
+    <string name="etxt_numphone">Ingresa tu número de teléfono de contacto</string>
+
 
 </resources>
 

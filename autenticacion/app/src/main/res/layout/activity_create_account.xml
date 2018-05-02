@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:hint="type your name"
+        android:hint="@string/etxt_name"
         android:inputType="textPersonName" />
 
     <EditText
@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:hint="type your lastname"
+        android:hint="@string/etxt_lastname"
         android:inputType="textPersonName" />
 
     <AutoCompleteTextView
@@ -55,7 +55,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/etxt_lastname"
         android:layout_centerHorizontal="true"
-        android:hint="Type your email"
+        android:hint="@string/etxt_email"
         android:inputType="textEmailAddress" />
 
     <EditText
@@ -63,7 +63,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/etxt_email"
-        android:hint="Type your password"
+        android:hint="@string/etxt_password"
         android:inputType="textPassword" />
 
     <EditText
@@ -71,7 +71,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/password"
-        android:hint="Type your phone number"
+        android:hint="@string/etxt_numphone"
         android:inputType="number" />
 
     <Button
@@ -83,7 +83,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="23dp"
         android:layout_gravity="center_horizontal"
-        android:text="Register" />
+        android:text="@string/btn_register" />
 
     <TextView
         android:id="@+id/txt_login"

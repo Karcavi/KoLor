@@ -31,7 +31,7 @@
     <string name="hint_user_id">User ID</string>
     <string name="get_custom_token">Get Token</string>
     <string name="sign_in">Anmelden</string>
-    <string name="create_account">Ein Veröffentlichung erstellen</string>
+    <string name="create_account">Ein Konto erstellen</string>
     <string name="send_link">Link senden</string>
     <string name="sign_out">Abmelden</string>
     <string name="action_register_now">Hier registrieren</string>
@@ -135,5 +135,17 @@
     <string name="edit_user">Bearbeiten</string>
 
     <string name="save_changes">Speichern</string>
+
+    <string name="btn_register">Konto erstellen</string>
+
+    <!-- Strings used in CREATE ACCOUNT ACTIVITY -->
+    <string name="etxt_name">Geben Sie Ihren Vorname ein</string>
+    <string name="etxt_lastname">Geben Sie Ihren Nachname ein</string>
+    <string name="etxt_email">Geben Sie Ihre E-Mail-Adresse ein</string>
+    <string name="etxt_password">Geben Sie Ihres neuen Kennwort ein</string>
+    <string name="etxt_numphone">Geben Sie Ihre Telefonnummer ein</string>
+
+
+
 
 </resources>
