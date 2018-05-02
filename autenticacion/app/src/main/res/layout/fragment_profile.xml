@@ -21,7 +21,8 @@
             android:layout_marginTop="27dp"
             android:src="@mipmap/ic_launcher"
             android:layout_alignParentLeft="true"
-            android:layout_marginLeft="19dp" />
+            android:layout_marginLeft="19dp"
+            android:contentDescription="TODO" />
 
         <TextView
             android:id="@+id/txtName"
@@ -108,7 +109,19 @@
             android:textSize="16sp"
             android:layout_alignLeft="@+id/txtName" />
 
-
+        <Button
+            android:id="@+id/editUser"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:background="@color/colorP"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/sign_out_buttonF"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1.0"
+            android:text="@string/edit_user"
+            android:theme="@style/ThemeOverlay.MyDarkButton"/>
         <Button
             android:id="@+id/sign_out_buttonF"
             style="@style/Widget.AppCompat.Button.Colored"
@@ -116,6 +129,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
+            android:background="@color/colorAccent"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="20dp"
             android:layout_weight="1.0"
