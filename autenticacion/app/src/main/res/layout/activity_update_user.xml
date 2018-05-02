@@ -105,7 +105,7 @@
 
 
         <Button
-            android:id="@+id/btn_save_changes"
+            android:id="@+id/save_changes"
             style="@style/Widget.AppCompat.Button.Colored"
             android:background="@color/colorP"
             android:layout_width="133dp"

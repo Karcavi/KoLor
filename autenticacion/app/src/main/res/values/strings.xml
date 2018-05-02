@@ -128,7 +128,9 @@
     <string name="required">Required!</string>
 
     <!-- new strings -->
-    <string name="edit_user">Edit</string>
+    <string name="edit_user">Edit user</string>
+
     <string name="save_changes">Save</string>
+
 
 </resources>

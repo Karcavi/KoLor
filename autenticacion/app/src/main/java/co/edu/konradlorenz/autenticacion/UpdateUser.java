@@ -69,7 +69,7 @@ public class UpdateUser extends AppCompatActivity {
         Name = (EditText) findViewById(R.id.txt_Name);
         LastName = (EditText) findViewById(R.id.txt_LastName);
         numberPhone = (EditText) findViewById(R.id.txt_PhoneNumber);
-        btnSaveInfo = (Button) findViewById(R.id.btn_save_changes);
+        btnSaveInfo = (Button) findViewById(R.id.save_changes);
 
 
 

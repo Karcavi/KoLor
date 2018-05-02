@@ -69,7 +69,7 @@ public class ProfileFragment extends Fragment {
                 //finish();
             }
         });
-        Button btnEditU = (Button) view.findViewById(R.id.editUser);
+        Button btnEditU = (Button) view.findViewById(R.id.edit_user);
         btnEditU.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

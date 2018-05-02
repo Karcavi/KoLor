@@ -110,7 +110,7 @@
             android:layout_alignLeft="@+id/txtName" />
 
         <Button
-            android:id="@+id/editUser"
+            android:id="@+id/edit_user"
             style="@style/Widget.AppCompat.Button.Colored"
             android:background="@color/colorP"
             android:layout_width="133dp"

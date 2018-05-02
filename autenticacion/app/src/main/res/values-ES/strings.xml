@@ -130,5 +130,11 @@
     <string name="create_description_pub">Descripción</string>
     <string name="btn_createPub">Crear</string>
     <string name="btn_cancelPub">Cancelar</string>
+
+    <string name="edit_user">Editar usuario</string>
+
+    <string name="save_changes">Guardar</string>
+
+
 </resources>
 
