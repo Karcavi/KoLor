@@ -34,8 +34,6 @@ import com.google.gson.Gson;
 
 public class CreateAccountActivity extends AppCompatActivity {
 
-
-
     private EditText Name;
     private EditText LastName;
     private AutoCompleteTextView Email;

@@ -33,9 +33,6 @@ public class ProfileFragment extends Fragment {
 
     private String m;
 
-
-
-
     // TODO: Rename and change types and number of parameters
     public static ProfileFragment newInstance(String param1, String param2) {
         ProfileFragment fragment = new ProfileFragment();

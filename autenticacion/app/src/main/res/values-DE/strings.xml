@@ -150,5 +150,16 @@
 
     <string name="detailedAdTitle">Meine Anzeigen</string>
 
+    <!-- Strings used in DETAILED ADS -->
+    <string name="previousButton">Vorherige</string>
+    <string name="nextButton">Nächste</string>
+    <string name="createdBy">Erstellt bei: </string>
+    <string name="userEmail">Email</string>
+    <string name="adDetails">Anzeigendetails</string>
+    <string name="adTitle">Anzeigentitel: </string>
+    <string name="adName">Titel</string>
+    <string name="adDescription">Anzeige Beschreibung: </string>
+    <string name="descriptionText">Beschreibung</string>
+
 
 </resources>
