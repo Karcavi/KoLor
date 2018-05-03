@@ -22,6 +22,7 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
 
 import java.util.ArrayList;
 
@@ -69,18 +70,23 @@ public class DashboardFragment extends Fragment {
           //      android.R.layout.activity_list_item, android.R.id.text1);
 
         listView = (ListView) view.findViewById(R.id.listViewD);
+        mAuth = FirebaseAuth.getInstance();
         ArrayList<PublicationEntity> arrayL = new ArrayList<>();
 
         //Firebase
         rootRef = FirebaseDatabase.getInstance().getReference("publications");
         //rootRef1 = FirebaseDatabase.getInstance().getReference("users");
         //read adds
+        Query q = rootRef.orderByChild("user").equalTo(mAuth.getCurrentUser().getUid());
+        //Query query = rootRef.child("user").orderByChild("id").equalTo(0);
+
+
         rootRef.addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
 
                 PublicationEntity resultado = dataSnapshot.getValue(PublicationEntity.class);
-                UserEntity resultado1 = dataSnapshot.getValue(UserEntity.class);
+                //UserEntity resultado1 = dataSnapshot.getValue(UserEntity.class);
                 title = resultado.getTitle();
                 //category = resultado.getCategory();
                 arrayL.add(new PublicationEntity(title));
@@ -90,17 +96,17 @@ public class DashboardFragment extends Fragment {
 
             @Override
             public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-
+                Log.i("JIACP","Ingresó al Fragment de profile");
             }
 
             @Override
             public void onChildRemoved(DataSnapshot dataSnapshot) {
-
+                Log.i("JIACP","Ingresó al Fragment de profile");
             }
 
             @Override
             public void onChildMoved(DataSnapshot dataSnapshot, String s) {
-
+                Log.i("JIACP","Ingresó al Fragment de profile");
             }
 
             @Override

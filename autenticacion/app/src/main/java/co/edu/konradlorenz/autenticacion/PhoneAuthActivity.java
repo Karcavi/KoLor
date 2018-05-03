@@ -60,8 +60,13 @@ public class PhoneAuthActivity extends AppCompatActivity implements
     private Button mStartButton;
     private Button mVerifyButton;
     private Button mResendButton;
-    private Button mSignOutButton;
 
+    @Override
+    public void onClick(View view) {
+        Log.i("JIACP","Ingresó al Fragment de profile");
+    }
+
+/*
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -85,7 +90,7 @@ public class PhoneAuthActivity extends AppCompatActivity implements
         mStartButton = findViewById(R.id.button_start_verification);
         mVerifyButton = findViewById(R.id.button_verify_phone);
         mResendButton = findViewById(R.id.button_resend);
-        mSignOutButton = findViewById(R.id.sign_out_button);
+        Button mSignOutButton = findViewById(R.id.sign_out_button);
 
         // Assign click listeners
         mStartButton.setOnClickListener(this);
@@ -403,5 +408,5 @@ public class PhoneAuthActivity extends AppCompatActivity implements
                 signOut();
                 break;
         }
-    }
+    }*/
 }

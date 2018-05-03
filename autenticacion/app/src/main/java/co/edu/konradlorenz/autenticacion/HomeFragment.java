@@ -35,7 +35,7 @@ public class HomeFragment extends Fragment {
    // private DatabaseReference rootRef1;
     // Android Layout
     private ListView listView;
-    private String title;
+
 
     //Array List
 
@@ -69,7 +69,7 @@ public class HomeFragment extends Fragment {
 
                 PublicationEntity resultado = dataSnapshot.getValue(PublicationEntity.class);
                 UserEntity resultado1 = dataSnapshot.getValue(UserEntity.class);
-                title = resultado.getTitle();
+                String title = resultado.getTitle();
                 arrayL.add(new PublicationEntity(title));
                 NotesAdapter adap = new NotesAdapter(getActivity(), R.layout.notes_item,arrayL);
                 listView.setAdapter(adap);
@@ -101,7 +101,7 @@ public class HomeFragment extends Fragment {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 //Query mQuery = rootRef.orderByValue().equalTo((String)
                        // listView.getItemAtPosition(position));
-                Intent intent =new Intent(getActivity(),AdDetail.class);
+                Intent intent =new Intent(getActivity(),PubDetails.class);
                 startActivity(intent);
             }
         });

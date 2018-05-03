@@ -33,7 +33,6 @@ public class CreatePubActivity extends AppCompatActivity {
 
     private EditText Title;
     private EditText Description;
-    private Spinner Category;
     private Button CreatePButton;
     private String category;
     static CreateAccountActivity instance;
@@ -61,7 +60,7 @@ public class CreatePubActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         Title = (EditText) findViewById(R.id.txt_title);
         Description = (EditText) findViewById(R.id.txt_description);
-        Category = (Spinner) findViewById(R.id.categories_spinner);
+        Spinner Category = (Spinner) findViewById(R.id.categories_spinner);
         category = Category.getSelectedItem().toString();
         CreatePButton = (Button) findViewById(R.id.btn_createPub);
         CancelPButton = (Button) findViewById(R.id.btn_cancelPub);

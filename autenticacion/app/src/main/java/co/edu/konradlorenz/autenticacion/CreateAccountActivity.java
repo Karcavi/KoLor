@@ -40,7 +40,7 @@ public class CreateAccountActivity extends AppCompatActivity {
     private EditText Password;
     private EditText numberPhone;
     private Button mRegisterButton;
-    static  CreateAccountActivity instance;
+
     private FirebaseAuth mAuth;
     private ProgressDialog mProgress;
     private TextView TextLogin;
@@ -55,7 +55,7 @@ public class CreateAccountActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        instance = this;
+       CreateAccountActivity instance = this;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_account);
 

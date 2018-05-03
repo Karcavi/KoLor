@@ -42,7 +42,7 @@ static LoginActivity instance;
     private TextView mDetailTextView;
     private EditText mEmailField;
     private EditText mPasswordField;
-    private TextView TextRegister;
+
 
     // [START declare_auth]
     private FirebaseAuth mAuth;
@@ -55,7 +55,7 @@ static LoginActivity instance;
         setContentView(R.layout.activity_login);
 
         // Views
-        TextRegister = (TextView) findViewById(R.id.txt_register);
+        TextView TextRegister = (TextView) findViewById(R.id.txt_register);
         TextRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

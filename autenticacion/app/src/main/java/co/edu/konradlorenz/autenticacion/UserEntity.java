@@ -3,14 +3,16 @@ package co.edu.konradlorenz.autenticacion;
 
 public class UserEntity {
 
-    public UserEntity() {
-    }
 
     private String email;
     private String name;
     private String lastname;
     private String password;
     private String phonenumber;
+
+    public UserEntity() {
+    }
+
 
     public String getEmail() {
         return email;
