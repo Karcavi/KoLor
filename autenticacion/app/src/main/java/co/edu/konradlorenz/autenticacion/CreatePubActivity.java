@@ -101,7 +101,7 @@ public class CreatePubActivity extends AppCompatActivity {
             Intent intent = new Intent(CreatePubActivity.this, MainActivity.class);
             startActivity(intent);
                             } else
-                                       Toast.makeText(CreatePubActivity.this, "failed to created publication", Toast.LENGTH_SHORT).show();
+                                       Toast.makeText(CreatePubActivity.this, "failed to create publication", Toast.LENGTH_SHORT).show();
 
                         }
 

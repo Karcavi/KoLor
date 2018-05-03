@@ -108,7 +108,7 @@
     <string name="title_notifications">Notifications</string>
     <string name="title_profile">Profile</string>
     <string name="title_mypublications">My publications</string>
-    <string name ="aquiRegistrar">Click here to register</string>
+    <string name="aquiRegistrar">Click here to register</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="dashboard_title">My publications</string>
     <string name="button_create_publication">Create New</string>
@@ -118,12 +118,33 @@
     <string name="categories">Select category</string>
 
     <string-array name="categories_array">
-        <item>Ofrezco</item>
-        <item>Necesito</item>
+        <item>I'm offering</item>
+        <item>I'm looking for</item>
     </string-array>
     <string name="create_title_pub">Title of publication</string>
     <string name="create_description_pub">Description</string>
+    <string name="btn_createPub">Create</string>
+    <string name="btn_cancelPub">Cancel</string>
+    <string name="required">Required!</string>
 
+    <!-- new strings -->
+    <string name="edit_user">Edit user</string>
+
+    <string name="save_changes">Save</string>
+
+    <string name="btn_register">Register</string>
+
+
+    <!-- Strings used in CREATE ACCOUNT ACTIVITY -->
+    <string name="etxt_name">Type in your name</string>
+    <string name="etxt_lastname">Type in your last name</string>
+    <string name="etxt_email">Type in your email</string>
+    <string name="etxt_password">Type in a password you will remember</string>
+    <string name="etxt_numphone">Type your phone number</string>
+
+    <string name="hereToLogin">Or click here to login</string>
+
+    <string name="detailedAdTitle">My adds</string>
 
 
 </resources>

@@ -80,7 +80,7 @@
             android:layout_marginTop="30dp"
             android:layout_margin="10dp"
             android:textColor="@color/almost_white"
-            android:text="Create" />
+            android:text="@string/btn_createPub" />
 
             <Button
             android:id="@+id/btn_cancelPub"
@@ -91,7 +91,7 @@
                 android:layout_margin="10dp"
             android:layout_marginTop="30dp"
             android:textColor="@color/almost_white"
-            android:text="Cancel" />
+            android:text="@string/btn_cancelPub" />
         </LinearLayout>
 
     </LinearLayout>

@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/almost_white"
-    tools:context=".ProfileFragment">
-
-    <!-- TODO: Update blank fragment layout -->
+    tools:context="co.edu.konradlorenz.autenticacion.UpdateUser">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/imageV"
             android:layout_width="138dp"
             android:layout_height="136dp"
             android:layout_alignParentStart="true"
@@ -21,30 +19,28 @@
             android:layout_marginTop="27dp"
             android:src="@mipmap/ic_launcher"
             android:layout_alignParentLeft="true"
-            android:layout_marginLeft="19dp"
-            android:contentDescription="TODO" />
+            android:layout_marginLeft="19dp" />
 
-        <TextView
-            android:id="@+id/txtName"
+        <EditText
+            android:id="@+id/txt_Name"
             android:layout_width="185dp"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentTop="true"
             android:layout_marginEnd="20dp"
             android:layout_marginTop="58dp"
-            android:text="name"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:inputType="" />
 
-        <TextView
-            android:id="@+id/txtLastName"
+        <EditText
+            android:id="@+id/txt_LastName"
             android:layout_width="185dp"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_alignStart="@+id/txtName"
+            android:layout_alignStart="@+id/txt_Name"
             android:layout_marginTop="105dp"
-            android:text="lastname"
             android:textSize="16sp"
-            android:layout_alignLeft="@+id/txtName" />
+            android:layout_alignLeft="@+id/txt_Name" />
 
 
         <TextView
@@ -74,16 +70,15 @@
             android:textSize="16sp"
             android:layout_alignLeft="@+id/titleContact" />
 
-        <TextView
-            android:id="@+id/txtPhoneNumber"
+        <EditText
+            android:id="@+id/txt_PhoneNumber"
             android:layout_width="178dp"
             android:layout_height="wrap_content"
-            android:layout_alignStart="@+id/txtName"
+            android:layout_alignStart="@+id/txt_Name"
             android:layout_alignTop="@+id/titlePhoneNumber"
             android:layout_gravity="center_vertical"
-            android:text="some phone"
             android:textSize="16sp"
-            android:layout_alignLeft="@+id/txtName" />
+            android:layout_alignLeft="@+id/txt_Name" />
 
 
         <TextView
@@ -98,44 +93,29 @@
             android:textSize="16sp"
             android:layout_alignLeft="@+id/titleContact" />
 
-        <TextView
-            android:id="@+id/txtEmail"
+        <AutoCompleteTextView
+            android:id="@+id/txt_Email"
             android:layout_width="179dp"
             android:layout_height="wrap_content"
-            android:layout_alignStart="@+id/txtName"
+            android:layout_alignStart="@+id/txt_Name"
             android:layout_alignTop="@+id/titleEmail"
             android:layout_gravity="center_vertical"
-            android:text="some email"
             android:textSize="16sp"
-            android:layout_alignLeft="@+id/txtName" />
+            android:layout_alignLeft="@+id/txt_Name" />
+
 
         <Button
-            android:id="@+id/edit_user"
+            android:id="@+id/save_changes"
             style="@style/Widget.AppCompat.Button.Colored"
             android:background="@color/colorP"
             android:layout_width="133dp"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/sign_out_buttonF"
-            android:layout_centerHorizontal="true"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="10dp"
-            android:layout_weight="1.0"
-            android:text="@string/edit_user"
-            android:theme="@style/ThemeOverlay.MyDarkButton"/>
-        <Button
-            android:id="@+id/sign_out_buttonF"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="133dp"
-            android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:background="@color/colorAccent"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="20dp"
-            android:layout_weight="1.0"
-            android:text="@string/sign_out"
+            android:text="@string/save_changes"
             android:theme="@style/ThemeOverlay.MyDarkButton" />
 
     </RelativeLayout>
-
-</FrameLayout>
+</android.support.constraint.ConstraintLayout>

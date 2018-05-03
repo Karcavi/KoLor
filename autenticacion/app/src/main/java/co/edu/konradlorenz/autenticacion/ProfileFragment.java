@@ -27,12 +27,7 @@ import com.google.firebase.storage.StorageReference;
 public class ProfileFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private int CAMERA_REQUEST_CODE = 0;
-    private FirebaseAuth.AuthStateListener mAuthListener;
-    private FirebaseAuth mAuth;
-    private StorageReference mStorage;
-    private DatabaseReference mDatabase;
-    private ImageView imageProfile;
+
 
     // TODO: Rename and change types of parameters
 
@@ -74,7 +69,16 @@ public class ProfileFragment extends Fragment {
                 //finish();
             }
         });
-
+        Button btnEditU = (Button) view.findViewById(R.id.edit_user);
+        btnEditU.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), UpdateUser.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                startActivity(intent);
+                //finish();
+            }
+        });
         TextView name = view.findViewById(R.id.txtName);
         TextView lastname = view.findViewById(R.id.txtLastName);
         TextView phonenumber = view.findViewById(R.id.txtPhoneNumber);

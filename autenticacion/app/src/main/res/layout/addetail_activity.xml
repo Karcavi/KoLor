@@ -11,6 +11,17 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="18dp"
+            android:text="@string/detailedAdTitle"
+            android:textColor="@color/colorP"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="138dp"
@@ -25,30 +36,30 @@
             android:contentDescription="TODO" />
 
         <TextView
-            android:id="@+id/txtName"
+            android:id="@+id/createdBy"
             android:layout_width="185dp"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentTop="true"
             android:layout_marginEnd="20dp"
             android:layout_marginTop="58dp"
-            android:text="name"
+            android:text="created by"
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/txtLastName"
+            android:id="@+id/userEmail"
             android:layout_width="185dp"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:layout_alignParentTop="true"
-            android:layout_alignStart="@+id/txtName"
+            android:layout_alignStart="@+id/createdBy"
             android:layout_marginTop="105dp"
-            android:text="lastname"
+            android:text="user email"
             android:textSize="16sp"
-            android:layout_alignLeft="@+id/txtName" />
+            android:layout_alignLeft="@+id/createdBy" />
 
 
         <TextView
-            android:id="@+id/titleContact"
+            android:id="@+id/adDetails"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -56,85 +67,61 @@
             android:layout_gravity="center_vertical"
             android:layout_marginStart="37dp"
             android:layout_marginTop="171dp"
-            android:text="Contact"
+            android:text="Ad Details"
             android:textSize="18sp"
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="37dp" />
 
 
         <TextView
-            android:id="@+id/titlePhoneNumber"
+            android:id="@+id/adTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_alignStart="@+id/titleContact"
+            android:layout_alignStart="@+id/adDetails"
             android:layout_gravity="center_vertical"
             android:layout_marginTop="227dp"
-            android:text="Phone: "
+            android:text="Ad title: "
             android:textSize="16sp"
-            android:layout_alignLeft="@+id/titleContact" />
+            android:layout_alignLeft="@+id/adDetails" />
 
         <TextView
-            android:id="@+id/txtPhoneNumber"
+            android:id="@+id/adName"
             android:layout_width="178dp"
             android:layout_height="wrap_content"
-            android:layout_alignStart="@+id/txtName"
-            android:layout_alignTop="@+id/titlePhoneNumber"
+            android:layout_alignStart="@+id/createdBy"
+            android:layout_alignTop="@+id/adTitle"
             android:layout_gravity="center_vertical"
-            android:text="some phone"
+            android:text="Ad title"
             android:textSize="16sp"
-            android:layout_alignLeft="@+id/txtName" />
+            android:layout_alignLeft="@+id/adTitle" />
 
 
         <TextView
-            android:id="@+id/titleEmail"
-            android:layout_width="71dp"
+            android:id="@+id/adDescription"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_alignStart="@+id/titleContact"
+            android:layout_alignStart="@+id/adDetails"
             android:layout_gravity="center_vertical"
             android:layout_marginBottom="207dp"
-            android:text="Email: "
+            android:text="Ad description: "
             android:textSize="16sp"
-            android:layout_alignLeft="@+id/titleContact" />
+            android:layout_alignLeft="@+id/adDetails" />
 
         <TextView
-            android:id="@+id/txtEmail"
+            android:id="@+id/descriptionText"
             android:layout_width="179dp"
-            android:layout_height="wrap_content"
-            android:layout_alignStart="@+id/txtName"
-            android:layout_alignTop="@+id/titleEmail"
+            android:layout_height="100dp"
+            android:layout_alignStart="@+id/createdBy"
+            android:layout_alignTop="@+id/adDescription"
             android:layout_gravity="center_vertical"
-            android:text="some email"
+            android:text="Ad description"
             android:textSize="16sp"
-            android:layout_alignLeft="@+id/txtName" />
+            android:layout_alignLeft="@+id/adDescription" />
 
-        <Button
-            android:id="@+id/edit_user"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:background="@color/colorP"
-            android:layout_width="133dp"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/sign_out_buttonF"
-            android:layout_centerHorizontal="true"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="10dp"
-            android:layout_weight="1.0"
-            android:text="@string/edit_user"
-            android:theme="@style/ThemeOverlay.MyDarkButton"/>
-        <Button
-            android:id="@+id/sign_out_buttonF"
-            style="@style/Widget.AppCompat.Button.Colored"
-            android:layout_width="133dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:background="@color/colorAccent"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="20dp"
-            android:layout_weight="1.0"
-            android:text="@string/sign_out"
-            android:theme="@style/ThemeOverlay.MyDarkButton" />
+
+
 
     </RelativeLayout>
 

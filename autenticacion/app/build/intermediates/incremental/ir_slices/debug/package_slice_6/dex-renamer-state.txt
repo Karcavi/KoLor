@@ -1,4 +1,0 @@
-#Tue Apr 17 19:40:22 COT 2018
-base.0=/Users/ingenieria/Downloads/Construccion-de-apps-master/taller6/autenticacion/app/build/intermediates/transforms/dexMerger/debug/6
-path.0=classes.dex
-renamed.0=classes.dex

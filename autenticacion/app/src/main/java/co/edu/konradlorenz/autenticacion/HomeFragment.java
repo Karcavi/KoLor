@@ -29,7 +29,7 @@ public class HomeFragment extends Fragment {
 
     // Firebase var
     private DatabaseReference rootRef;
-    private DatabaseReference rootRef1;
+   // private DatabaseReference rootRef1;
     // Android Layout
     private ListView listView;
 
@@ -55,7 +55,7 @@ public class HomeFragment extends Fragment {
     listView.setAdapter(adapter);
     //Firebase
         rootRef = FirebaseDatabase.getInstance().getReference("publications");
-        rootRef1 = FirebaseDatabase.getInstance().getReference("users");
+        //rootRef1 = FirebaseDatabase.getInstance().getReference("users");
         //read adds
         rootRef.addChildEventListener(new ChildEventListener() {
             @Override
