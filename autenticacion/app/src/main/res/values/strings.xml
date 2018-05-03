@@ -111,6 +111,7 @@
     <string name="aquiRegistrar">Click here to register</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="dashboard_title">My publications</string>
+    <string name="home_title">Publications</string>
     <string name="button_create_publication">Create New</string>
     <string name="create_pub">Create Publication</string>
 

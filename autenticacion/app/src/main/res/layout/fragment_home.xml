@@ -8,11 +8,20 @@
     tools:context=".HomeFragment">
 
     <!-- TODO: Update blank fragment layout -->
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="18dp"
+        android:text="@string/home_title"
+        android:textColor="@color/colorP"
+        android:textSize="22sp"
+        android:textStyle="bold" />
     <ListView
         android:id="@+id/listViewH"
+        android:layout_marginTop="70dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="450dp">
     </ListView>
 
 

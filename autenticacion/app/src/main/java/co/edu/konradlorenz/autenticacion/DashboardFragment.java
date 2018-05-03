@@ -41,7 +41,11 @@ public class DashboardFragment extends Fragment {
     private FirebaseAuth mAuth;
     //Array List
     private ArrayList<PublicationEntity> arrayList = new ArrayList<PublicationEntity>();
+
     private ArrayAdapter<String> adapter;
+    private String title;
+    private String category;
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -61,11 +65,12 @@ public class DashboardFragment extends Fragment {
 
         Title = (EditText) view.findViewById(R.id.etxt_name);
         Desrcription = (EditText) view.findViewById(R.id.etxt_lastname);
-        adapter = new ArrayAdapter(getActivity(),
-                android.R.layout.activity_list_item, android.R.id.text1);
+       // adapter = new ArrayAdapter(getActivity(),
+          //      android.R.layout.activity_list_item, android.R.id.text1);
 
         listView = (ListView) view.findViewById(R.id.listViewD);
-        listView.setAdapter(adapter);
+        ArrayList<PublicationEntity> arrayL = new ArrayList<>();
+
         //Firebase
         rootRef = FirebaseDatabase.getInstance().getReference("publications");
         //rootRef1 = FirebaseDatabase.getInstance().getReference("users");
@@ -76,7 +81,11 @@ public class DashboardFragment extends Fragment {
 
                 PublicationEntity resultado = dataSnapshot.getValue(PublicationEntity.class);
                 UserEntity resultado1 = dataSnapshot.getValue(UserEntity.class);
-                adapter.add(resultado.getTitle());
+                title = resultado.getTitle();
+                //category = resultado.getCategory();
+                arrayL.add(new PublicationEntity(title));
+                NotesAdapter adap = new NotesAdapter(getActivity(), R.layout.notes_item,arrayL);
+                listView.setAdapter(adap);
             }
 
             @Override
