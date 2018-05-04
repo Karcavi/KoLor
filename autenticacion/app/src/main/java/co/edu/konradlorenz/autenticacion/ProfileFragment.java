@@ -3,7 +3,6 @@ package co.edu.konradlorenz.autenticacion;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.util.Log;
@@ -11,9 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.TextView;
-
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -21,7 +18,6 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-import com.google.firebase.storage.StorageReference;
 
 
 public class ProfileFragment extends Fragment {
@@ -31,7 +27,7 @@ public class ProfileFragment extends Fragment {
 
     // TODO: Rename and change types of parameters
 
-    private String m;
+
 
     // TODO: Rename and change types and number of parameters
     public static ProfileFragment newInstance(String param1, String param2) {
@@ -89,7 +85,7 @@ public class ProfileFragment extends Fragment {
         SharedPreferences sharedPref = getActivity().getPreferences(Context.MODE_PRIVATE);
         //String uid = sharedPref.getString("current_user", "");
         FirebaseUser currentUser = FirebaseAuth.getInstance().getCurrentUser();
-        m = currentUser.getUid();
+        String m = currentUser.getUid();
 
 
         /*
@@ -115,7 +111,7 @@ public class ProfileFragment extends Fragment {
 
             @Override
             public void onCancelled(DatabaseError databaseError) {
-
+                Log.i("JIACP","Ingresó al Fragment de profile");
             }
         });
 

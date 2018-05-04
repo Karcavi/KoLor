@@ -18,7 +18,6 @@ package co.edu.konradlorenz.autenticacion;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Parcelable;
 import android.support.annotation.NonNull;
 import android.text.TextUtils;
 import android.util.Log;
@@ -26,7 +25,6 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -35,7 +33,6 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class LoginActivity extends BaseActivity implements
         View.OnClickListener {
-static LoginActivity instance;
     private static final String TAG = "EmailPassword";
 
     private TextView mStatusTextView;
@@ -51,7 +48,6 @@ static LoginActivity instance;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        instance = this;
         setContentView(R.layout.activity_login);
 
         // Views
@@ -79,9 +75,6 @@ static LoginActivity instance;
         // [END initialize_auth]
     }
 
-    public static LoginActivity getInstance(){
-        return instance;
-    }
 
     // [START on_start_check_user]
     @Override

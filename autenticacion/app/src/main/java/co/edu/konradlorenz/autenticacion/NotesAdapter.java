@@ -44,10 +44,10 @@ public class NotesAdapter extends ArrayAdapter<PublicationEntity> {
         texto1.setText(current_note.getTitle());
         texto2.setText(current_note.getCategory());
 
-        if (current_note.getKind() == 1){
+       // if (current_note.getKind() == 1){
           // image.setImageDrawable(getContext().getResources().getDrawable(android.R.drawable.ic_lock_idle_alarm));
 
-        }
+       // }
 
 
         return current_view;

@@ -1,11 +1,8 @@
 package co.edu.konradlorenz.autenticacion;
 
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -15,7 +12,6 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
-
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
@@ -23,7 +19,6 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
-
 import java.util.ArrayList;
 
 
@@ -32,20 +27,15 @@ import java.util.ArrayList;
  */
 public class DashboardFragment extends Fragment {
 
-    private EditText Title;
-    private EditText Desrcription;
     // Firebase var
-    private DatabaseReference rootRef;
+
     // private DatabaseReference rootRef1;
     // Android Layout
     private ListView listView;
-    private FirebaseAuth mAuth;
     //Array List
     private ArrayList<PublicationEntity> arrayList = new ArrayList<PublicationEntity>();
-
     private ArrayAdapter<String> adapter;
-    private String title;
-    private String category;
+
 
 
     @Override
@@ -64,17 +54,17 @@ public class DashboardFragment extends Fragment {
             }
         });
 
-        Title = (EditText) view.findViewById(R.id.etxt_name);
-        Desrcription = (EditText) view.findViewById(R.id.etxt_lastname);
+        EditText Title = (EditText) view.findViewById(R.id.etxt_name);
+        EditText Desrcription = (EditText) view.findViewById(R.id.etxt_lastname);
        // adapter = new ArrayAdapter(getActivity(),
           //      android.R.layout.activity_list_item, android.R.id.text1);
 
         listView = (ListView) view.findViewById(R.id.listViewD);
-        mAuth = FirebaseAuth.getInstance();
+        FirebaseAuth mAuth = FirebaseAuth.getInstance();
         ArrayList<PublicationEntity> arrayL = new ArrayList<>();
 
         //Firebase
-        rootRef = FirebaseDatabase.getInstance().getReference("publications");
+        DatabaseReference rootRef = FirebaseDatabase.getInstance().getReference("publications");
         //rootRef1 = FirebaseDatabase.getInstance().getReference("users");
         //read adds
         Query q = rootRef.orderByChild("user").equalTo(mAuth.getCurrentUser().getUid());
@@ -87,7 +77,7 @@ public class DashboardFragment extends Fragment {
 
                 PublicationEntity resultado = dataSnapshot.getValue(PublicationEntity.class);
                 //UserEntity resultado1 = dataSnapshot.getValue(UserEntity.class);
-                title = resultado.getTitle();
+                String title = resultado.getTitle();
                 //category = resultado.getCategory();
                 arrayL.add(new PublicationEntity(title));
                 NotesAdapter adap = new NotesAdapter(getActivity(), R.layout.notes_item,arrayL);

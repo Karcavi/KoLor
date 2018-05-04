@@ -1,27 +1,16 @@
 package co.edu.konradlorenz.autenticacion;
 
-import android.app.ProgressDialog;
-import android.content.Context;
+
 import android.content.Intent;
-import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.AttributeSet;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
-import android.widget.TextView;
 import android.widget.Toast;
-
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -33,12 +22,8 @@ public class CreatePubActivity extends AppCompatActivity {
 
     private EditText Title;
     private EditText Description;
-    private Button CreatePButton;
     private String category;
-    static CreateAccountActivity instance;
     private FirebaseAuth mAuth;
-
-    private Button CancelPButton;
     private FirebaseAuth.AuthStateListener mAuthListener;
 
 
@@ -62,8 +47,8 @@ public class CreatePubActivity extends AppCompatActivity {
         Description = (EditText) findViewById(R.id.txt_description);
         Spinner Category = (Spinner) findViewById(R.id.categories_spinner);
         category = Category.getSelectedItem().toString();
-        CreatePButton = (Button) findViewById(R.id.btn_createPub);
-        CancelPButton = (Button) findViewById(R.id.btn_cancelPub);
+        Button CreatePButton = (Button) findViewById(R.id.btn_createPub);
+        Button CancelPButton = (Button) findViewById(R.id.btn_cancelPub);
         CancelPButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -89,7 +74,7 @@ public class CreatePubActivity extends AppCompatActivity {
 
         if (!TextUtils.isEmpty(title)  && !TextUtils.isEmpty(description) ) {
 
-            int o = GenerateId();
+            int o = generateId();
             DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference().child("publications");
             DatabaseReference currentUserDB = mDatabase.child(String.valueOf(o));
             currentUserDB.child("category").setValue(category);
@@ -105,7 +90,7 @@ public class CreatePubActivity extends AppCompatActivity {
                         }
 
 
-                        public int GenerateId(){
+                        public int generateId(){
                             int randomId = 0;
                             Random rand = new Random();
                             for (int j=0; j<10; j++){

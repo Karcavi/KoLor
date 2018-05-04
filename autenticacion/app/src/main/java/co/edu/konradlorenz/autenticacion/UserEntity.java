@@ -10,8 +10,6 @@ public class UserEntity {
     private String password;
     private String phonenumber;
 
-    public UserEntity() {
-    }
 
 
     public String getEmail() {
