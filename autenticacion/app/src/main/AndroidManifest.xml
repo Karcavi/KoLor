@@ -67,7 +67,8 @@
             android:theme="@style/AppTheme" />
         <activity android:name=".CreateAccountActivity" />
         <activity android:name=".CreatePubActivity" />
-        <activity android:name=".UpdateUser"></activity>
+        <activity android:name=".UpdateUser" />
+        <activity android:name=".PubDetails"></activity>
     </application>
 
 </manifest>

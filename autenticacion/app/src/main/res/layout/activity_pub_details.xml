@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/almost_white"
-    tools:context=".AdDetail">
-
+    tools:context="co.edu.konradlorenz.autenticacion.PubDetails">
     <!-- TODO: Update blank fragment layout -->
     <RelativeLayout
         android:layout_width="match_parent"
@@ -26,14 +25,12 @@
             android:id="@+id/imageView"
             android:layout_width="138dp"
             android:layout_height="136dp"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginStart="19dp"
-            android:layout_marginTop="27dp"
-            android:src="@mipmap/ic_launcher"
-            android:layout_alignParentLeft="true"
-            android:layout_marginLeft="19dp"
-            android:contentDescription="TODO" />
+            android:layout_alignBottom="@+id/adDetails"
+            android:layout_alignEnd="@+id/adDescription"
+            android:layout_alignRight="@+id/adDescription"
+            android:layout_marginBottom="23dp"
+            android:contentDescription="TODO"
+            android:src="@mipmap/ic_launcher" />
 
         <TextView
             android:id="@+id/createdBy"
@@ -61,15 +58,15 @@
             android:id="@+id/adDetails"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentTop="true"
-            android:layout_gravity="center_vertical"
-            android:layout_marginStart="37dp"
-            android:layout_marginTop="171dp"
-            android:text="@string/adDetails"
-            android:textSize="18sp"
+            android:layout_above="@+id/adName"
             android:layout_alignParentLeft="true"
-            android:layout_marginLeft="37dp" />
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="23dp"
+            android:layout_marginLeft="37dp"
+            android:layout_marginStart="37dp"
+            android:text="@string/adDetails"
+            android:textSize="18sp" />
 
 
         <TextView
@@ -112,12 +109,13 @@
             android:id="@+id/descriptionText"
             android:layout_width="179dp"
             android:layout_height="100dp"
-            android:layout_alignStart="@+id/createdBy"
-            android:layout_alignTop="@+id/adDescription"
+            android:layout_alignBaseline="@+id/adDescription"
+            android:layout_alignBottom="@+id/adDescription"
+            android:layout_alignLeft="@+id/nextButton"
+            android:layout_alignStart="@+id/nextButton"
             android:layout_gravity="center_vertical"
             android:text="@string/descriptionText"
-            android:textSize="16sp"
-            android:layout_alignLeft="@+id/adDescription" />
+            android:textSize="16sp" />
 
         <Button
             android:id="@+id/previousButton"
@@ -150,5 +148,4 @@
             tools:ignore="RtlCompat" />
 
     </RelativeLayout>
-
-</LinearLayout>
+</android.support.constraint.ConstraintLayout>

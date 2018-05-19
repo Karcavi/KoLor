@@ -7,14 +7,21 @@ public class PublicationEntity {
     private String Title;
     private String Description;
 
-
+    private String Category;
     //created by karcavi
     private String User;
-    private String email;
+    private int Kind;
+    //private String email;
 
 
     public PublicationEntity() {
     }
+
+    public PublicationEntity(String title) {
+        Title = title;
+    }
+
+
 
     public String getTitle() {
         return Title;
@@ -40,11 +47,19 @@ public class PublicationEntity {
         User = user;
     }
 
-    public String getEmail() {
-        return email;
+    public String getCategory() {
+        return Category;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setCategory(String category) {
+        Category = category;
+    }
+
+    public int getKind() {
+        return Kind;
+    }
+
+    public void setKind(int kind) {
+        Kind = kind;
     }
 }

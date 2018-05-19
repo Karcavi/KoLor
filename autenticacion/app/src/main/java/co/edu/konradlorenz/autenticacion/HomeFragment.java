@@ -1,15 +1,13 @@
 package co.edu.konradlorenz.autenticacion;
 
-import android.content.Context;
-import android.net.Uri;
+import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -18,28 +16,22 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 
-import java.sql.DatabaseMetaData;
 import java.util.ArrayList;
-import java.util.List;
+
 
 
 public class HomeFragment extends Fragment {
 
     // Firebase var
-    private DatabaseReference rootRef;
+
    // private DatabaseReference rootRef1;
     // Android Layout
     private ListView listView;
 
     //Array List
-    private ArrayList<PublicationEntity> arrayList = new ArrayList<PublicationEntity>();
+
     private ArrayAdapter<String> adapter;
-
-
-    public HomeFragment() {
-    }
 
 
     @Override
@@ -47,14 +39,16 @@ public class HomeFragment extends Fragment {
 
     View rootview = inflater.inflate(R.layout.fragment_home,container, false);
 
-
-    adapter = new ArrayAdapter(getActivity(),
-    android.R.layout.activity_list_item, android.R.id.text1);
-
     listView = (ListView) rootview.findViewById(R.id.listViewH);
-    listView.setAdapter(adapter);
+    ArrayList<PublicationEntity> arrayL = new ArrayList<>();
+
+   // adapter = new ArrayAdapter(getActivity(),
+    //android.R.layout.activity_list_item, android.R.id.text1);
+
+
+
     //Firebase
-        rootRef = FirebaseDatabase.getInstance().getReference("publications");
+        DatabaseReference rootRef = FirebaseDatabase.getInstance().getReference("publications");
         //rootRef1 = FirebaseDatabase.getInstance().getReference("users");
         //read adds
         rootRef.addChildEventListener(new ChildEventListener() {
@@ -63,28 +57,40 @@ public class HomeFragment extends Fragment {
 
                 PublicationEntity resultado = dataSnapshot.getValue(PublicationEntity.class);
                 UserEntity resultado1 = dataSnapshot.getValue(UserEntity.class);
-                adapter.add(resultado.getTitle());
+                String title = resultado.getTitle();
+                arrayL.add(new PublicationEntity(title));
+                NotesAdapter adap = new NotesAdapter(getActivity(), R.layout.notes_item,arrayL);
+                listView.setAdapter(adap);
             }
 
             @Override
             public void onChildChanged(DataSnapshot dataSnapshot, String s) {
-
+                Log.i("JIACP","Ingresó al Fragment de profile");
             }
 
             @Override
             public void onChildRemoved(DataSnapshot dataSnapshot) {
-
+                Log.i("JIACP","Ingresó al Fragment de profile");
             }
 
             @Override
             public void onChildMoved(DataSnapshot dataSnapshot, String s) {
-
+                Log.i("JIACP","Ingresó al Fragment de profile");
             }
 
             @Override
             public void onCancelled(DatabaseError error) {
                 // Failed to read value
                 Log.w("TAG:", "Failed to read value.", error.toException());
+            }
+        });
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                //Query mQuery = rootRef.orderByValue().equalTo((String)
+                       // listView.getItemAtPosition(position));
+                Intent intent =new Intent(getActivity(),PubDetails.class);
+                startActivity(intent);
             }
         });
 

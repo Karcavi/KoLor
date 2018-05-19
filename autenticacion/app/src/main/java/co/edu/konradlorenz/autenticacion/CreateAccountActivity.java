@@ -6,31 +6,18 @@ import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.facebook.login.Login;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.ChildEventListener;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.Query;
-import com.google.firebase.database.ValueEventListener;
-import com.google.gson.Gson;
 
 public class CreateAccountActivity extends AppCompatActivity {
 
@@ -39,11 +26,8 @@ public class CreateAccountActivity extends AppCompatActivity {
     private AutoCompleteTextView Email;
     private EditText Password;
     private EditText numberPhone;
-    private Button mRegisterButton;
-    static  CreateAccountActivity instance;
     private FirebaseAuth mAuth;
     private ProgressDialog mProgress;
-    private TextView TextLogin;
     private FirebaseAuth.AuthStateListener mAuthListener;
 
     @Override
@@ -55,7 +39,7 @@ public class CreateAccountActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        instance = this;
+       CreateAccountActivity instance = this;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_account);
 
@@ -65,8 +49,8 @@ public class CreateAccountActivity extends AppCompatActivity {
         LastName = (EditText) findViewById(R.id.etxt_lastname);
         Password = (EditText) findViewById(R.id.etxt_password);
         numberPhone = (EditText) findViewById(R.id.etxt_numphone);
-        mRegisterButton = (Button) findViewById(R.id.btn_register);
-        TextLogin = (TextView) findViewById(R.id.hereToLogin);
+        Button mRegisterButton = (Button) findViewById(R.id.btn_register);
+        TextView TextLogin = (TextView) findViewById(R.id.hereToLogin);
         TextLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
