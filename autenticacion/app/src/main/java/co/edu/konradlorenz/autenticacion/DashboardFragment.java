@@ -71,7 +71,7 @@ public class DashboardFragment extends Fragment {
         //Query query = rootRef.child("user").orderByChild("id").equalTo(0);
 
 
-        rootRef.addChildEventListener(new ChildEventListener() {
+        q.addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
 

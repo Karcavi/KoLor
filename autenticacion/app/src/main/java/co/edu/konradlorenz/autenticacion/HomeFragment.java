@@ -56,7 +56,7 @@ public class HomeFragment extends Fragment {
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
 
                 PublicationEntity resultado = dataSnapshot.getValue(PublicationEntity.class);
-                UserEntity resultado1 = dataSnapshot.getValue(UserEntity.class);
+               // UserEntity resultado1 = dataSnapshot.getValue(UserEntity.class);
                 String title = resultado.getTitle();
                 arrayL.add(new PublicationEntity(title));
                 NotesAdapter adap = new NotesAdapter(getActivity(), R.layout.notes_item,arrayL);
@@ -87,8 +87,8 @@ public class HomeFragment extends Fragment {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                //Query mQuery = rootRef.orderByValue().equalTo((String)
                        // listView.getItemAtPosition(position));
+
                 Intent intent =new Intent(getActivity(),PubDetails.class);
                 startActivity(intent);
             }
