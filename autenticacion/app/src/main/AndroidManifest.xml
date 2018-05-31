@@ -39,6 +39,10 @@
         <activity
             android:name=".FirebaseUIActivity"
             android:label="@string/label_firebase_ui" />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
 
         <!-- Facebook Configuration -->
         <meta-data
