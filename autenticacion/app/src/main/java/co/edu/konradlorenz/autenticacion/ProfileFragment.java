@@ -3,13 +3,16 @@ package co.edu.konradlorenz.autenticacion;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.URLUtil;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -18,24 +21,11 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.squareup.picasso.Picasso;
 
 
 public class ProfileFragment extends Fragment {
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 
-
-    // TODO: Rename and change types of parameters
-
-
-
-    // TODO: Rename and change types and number of parameters
-    public static ProfileFragment newInstance(String param1, String param2) {
-        ProfileFragment fragment = new ProfileFragment();
-        Bundle args = new Bundle();
-        fragment.setArguments(args);
-        return fragment;
-    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -66,8 +56,7 @@ public class ProfileFragment extends Fragment {
         btnEditU.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), UpdateUser.class);
-                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                Intent intent = new Intent(ProfileFragment.this.getActivity(), UpdateUser.class);
                 startActivity(intent);
                 //finish();
             }
@@ -76,6 +65,7 @@ public class ProfileFragment extends Fragment {
         TextView lastname = view.findViewById(R.id.txtLastName);
         TextView phonenumber = view.findViewById(R.id.txtPhoneNumber);
         TextView email = view.findViewById(R.id.txtEmail);
+        ImageView imageProfile = (ImageView) view.findViewById(R.id.imageView);
 
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
@@ -106,6 +96,10 @@ public class ProfileFragment extends Fragment {
                 lastname.setText(value.getLastname() );
                 phonenumber.setText(value.getPhonenumber() );
                 email.setText(value.getEmail() );
+
+                String imageUrl = String.valueOf(dataSnapshot.child("image").getValue());
+                if (URLUtil.isValidUrl(imageUrl))
+                    Picasso.with(getActivity()).load(Uri.parse(imageUrl)).into(imageProfile);
 
             }
 

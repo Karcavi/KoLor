@@ -9,6 +9,7 @@ public class UserEntity {
     private String lastname;
     private String password;
     private String phonenumber;
+    private String image;
 
 
 
@@ -50,5 +51,13 @@ public class UserEntity {
 
     public void setPhonenumber(String phonenumber) {
         this.phonenumber = phonenumber;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
     }
 }
