@@ -3,13 +3,16 @@ package co.edu.konradlorenz.autenticacion;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.URLUtil;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -18,9 +21,11 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.squareup.picasso.Picasso;
 
 
 public class ProfileFragment extends Fragment {
+
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
 
@@ -76,6 +81,7 @@ public class ProfileFragment extends Fragment {
         TextView lastname = view.findViewById(R.id.txtLastName);
         TextView phonenumber = view.findViewById(R.id.txtPhoneNumber);
         TextView email = view.findViewById(R.id.txtEmail);
+        ImageView imageProfile = (ImageView) view.findViewById(R.id.imageView);
 
 
         FirebaseDatabase database = FirebaseDatabase.getInstance();
@@ -106,6 +112,10 @@ public class ProfileFragment extends Fragment {
                 lastname.setText(value.getLastname() );
                 phonenumber.setText(value.getPhonenumber() );
                 email.setText(value.getEmail() );
+
+                String imageUrl = String.valueOf(dataSnapshot.child("image").getValue());
+                if (URLUtil.isValidUrl(imageUrl))
+                    Picasso.with(getActivity()).load(Uri.parse(imageUrl)).into(imageProfile);
 
             }
 
